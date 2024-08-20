@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"130a27aad8926cfb","x":-1360,"y":-790,"width":300,"height":230,"type":"file","file":"notes-catalog/programming/JavaScript/JavaScript.md"},
+		{"id":"cbfe54499064c46d","x":-1310,"y":-500,"width":250,"height":60,"type":"text","text":"# Go Lang"},
+		{"id":"767271e83c3a4ff2","x":-1260,"y":-320,"width":300,"height":160,"type":"file","file":"notes-catalog/programming/Python/Python.md"},
+		{"id":"799af890005a8036","type":"file","file":"notes-catalog/Roadmaps/Backend/Backend.md","x":-240,"y":-920,"width":400,"height":400},
+		{"id":"48acf35797fde79d","x":-165,"y":-380,"width":250,"height":60,"type":"text","text":"# Internet"},
+		{"id":"a15f77719295ea9e","x":-520,"y":-240,"width":210,"height":140,"type":"text","text":"# Pick a language"},
+		{"id":"10ec5a77151a276b","x":320,"y":-580,"width":520,"height":100,"type":"text","text":"# How does the internet work?"},
+		{"id":"092e1dd533f3c224","x":320,"y":-440,"width":300,"height":60,"type":"text","text":"# What is HTTP?"},
+		{"id":"14ee9c5baa34f54d","x":320,"y":-320,"width":520,"height":80,"type":"text","text":"# What is a domain name?"},
+		{"id":"31a9ad6b12882692","x":320,"y":-200,"width":320,"height":80,"type":"text","text":"# What is hosting?"},
+		{"id":"88bf13bbb94b091b","x":320,"y":-80,"width":440,"height":80,"type":"text","text":"# DNS and how it works?"},
+		{"id":"ad783fb84627cfed","x":320,"y":40,"width":520,"height":88,"type":"text","text":"# Browsers and how they work?"},
+		{"id":"890c880fc2796bbb","x":-310,"y":240,"width":510,"height":64,"type":"text","text":"# Version Control System"},
+		{"id":"445aa7b02fc2ab30","x":-125,"y":80,"width":140,"height":50,"type":"text","text":"# Git"},
+		{"id":"fdc1e23bbfbe01c9","x":-1120,"y":360,"width":400,"height":50,"type":"text","text":"# Repo Hosting Services"},
+		{"id":"1fad804c06a2a46f","x":-1045,"y":240,"width":250,"height":60,"type":"text","text":"# GitLab"},
+		{"id":"e9ba20e73fa7ea8a","x":-1045,"y":120,"width":250,"height":60,"type":"text","text":"# GitHub"},
+		{"id":"acbbdf1b8818a117","x":-1045,"y":480,"width":250,"height":60,"type":"text","text":"# Bitbucket"}
+	],
+	"edges":[
+		{"id":"e7d6fe263ddfdca4","fromNode":"a15f77719295ea9e","fromSide":"left","toNode":"130a27aad8926cfb","toSide":"right"},
+		{"id":"31711c55307e31a6","fromNode":"a15f77719295ea9e","fromSide":"left","toNode":"cbfe54499064c46d","toSide":"right"},
+		{"id":"1d49c441ba967c7f","fromNode":"a15f77719295ea9e","fromSide":"left","toNode":"767271e83c3a4ff2","toSide":"right"},
+		{"id":"f1b180c9d41deaaa","fromNode":"799af890005a8036","fromSide":"bottom","toNode":"48acf35797fde79d","toSide":"top"},
+		{"id":"7f9285c37108f267","fromNode":"48acf35797fde79d","fromSide":"left","toNode":"a15f77719295ea9e","toSide":"right"},
+		{"id":"3126dc1993ff9b7a","fromNode":"48acf35797fde79d","fromSide":"right","toNode":"10ec5a77151a276b","toSide":"left"},
+		{"id":"f44199a1e9568df6","fromNode":"48acf35797fde79d","fromSide":"right","toNode":"092e1dd533f3c224","toSide":"left"},
+		{"id":"4ba5aacb9d21947c","fromNode":"48acf35797fde79d","fromSide":"right","toNode":"14ee9c5baa34f54d","toSide":"left"},
+		{"id":"e156b4ece84a26f5","fromNode":"48acf35797fde79d","fromSide":"right","toNode":"31a9ad6b12882692","toSide":"left"},
+		{"id":"c3dffb7543a194ee","fromNode":"48acf35797fde79d","fromSide":"right","toNode":"88bf13bbb94b091b","toSide":"left"},
+		{"id":"fd521b5733be3b10","fromNode":"48acf35797fde79d","fromSide":"right","toNode":"ad783fb84627cfed","toSide":"left"},
+		{"id":"bb7705b27bdb2875","fromNode":"a15f77719295ea9e","fromSide":"bottom","toNode":"890c880fc2796bbb","toSide":"left"},
+		{"id":"0669732b2a2cd0fe","fromNode":"890c880fc2796bbb","fromSide":"top","toNode":"445aa7b02fc2ab30","toSide":"bottom"},
+		{"id":"6319ce253ee4ca8f","fromNode":"890c880fc2796bbb","fromSide":"left","toNode":"fdc1e23bbfbe01c9","toSide":"right"},
+		{"id":"5e08a0c7bac95d0b","fromNode":"fdc1e23bbfbe01c9","fromSide":"top","toNode":"1fad804c06a2a46f","toSide":"bottom"},
+		{"id":"37230534b98d6ae7","fromNode":"1fad804c06a2a46f","fromSide":"top","toNode":"e9ba20e73fa7ea8a","toSide":"bottom"},
+		{"id":"857cbdfe8960ae04","fromNode":"fdc1e23bbfbe01c9","fromSide":"bottom","toNode":"acbbdf1b8818a117","toSide":"top"}
+	]
+}

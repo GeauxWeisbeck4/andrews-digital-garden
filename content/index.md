@@ -19,7 +19,7 @@ If you want to jump right into things, you will find these links as a great plac
 - ## [[Hackathons]]
 ## Notes
 
-- ### [[Programming]]
+- ### [[Programming Books]]
 	- #### [[JavaScript]]
 	- #### [[Nodejs|Node.js]]
 	- #### [[Python]]
