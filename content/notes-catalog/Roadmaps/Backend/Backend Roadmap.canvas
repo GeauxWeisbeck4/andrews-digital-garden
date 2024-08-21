@@ -17,7 +17,9 @@
 		{"id":"fdc1e23bbfbe01c9","x":-1120,"y":360,"width":400,"height":50,"type":"text","text":"# Repo Hosting Services"},
 		{"id":"1fad804c06a2a46f","x":-1045,"y":240,"width":250,"height":60,"type":"text","text":"# GitLab"},
 		{"id":"e9ba20e73fa7ea8a","x":-1045,"y":120,"width":250,"height":60,"type":"text","text":"# GitHub"},
-		{"id":"acbbdf1b8818a117","x":-1045,"y":480,"width":250,"height":60,"type":"text","text":"# Bitbucket"}
+		{"id":"acbbdf1b8818a117","x":-1045,"y":480,"width":250,"height":60,"type":"text","text":"# Bitbucket"},
+		{"id":"aff4960151d113cc","x":-290,"y":574,"width":410,"height":66,"type":"text","text":"# Relational Databases"},
+		{"id":"faee144100a0ab91","x":-210,"y":400,"width":250,"height":60,"type":"text","text":"# PostgreSQL"}
 	],
 	"edges":[
 		{"id":"e7d6fe263ddfdca4","fromNode":"a15f77719295ea9e","fromSide":"left","toNode":"130a27aad8926cfb","toSide":"right"},
@@ -36,6 +38,8 @@
 		{"id":"6319ce253ee4ca8f","fromNode":"890c880fc2796bbb","fromSide":"left","toNode":"fdc1e23bbfbe01c9","toSide":"right"},
 		{"id":"5e08a0c7bac95d0b","fromNode":"fdc1e23bbfbe01c9","fromSide":"top","toNode":"1fad804c06a2a46f","toSide":"bottom"},
 		{"id":"37230534b98d6ae7","fromNode":"1fad804c06a2a46f","fromSide":"top","toNode":"e9ba20e73fa7ea8a","toSide":"bottom"},
-		{"id":"857cbdfe8960ae04","fromNode":"fdc1e23bbfbe01c9","fromSide":"bottom","toNode":"acbbdf1b8818a117","toSide":"top"}
+		{"id":"857cbdfe8960ae04","fromNode":"fdc1e23bbfbe01c9","fromSide":"bottom","toNode":"acbbdf1b8818a117","toSide":"top"},
+		{"id":"6f51d4e32258e7af","fromNode":"fdc1e23bbfbe01c9","fromSide":"right","toNode":"aff4960151d113cc","toSide":"left"},
+		{"id":"d61d7fc25a99d65a","fromNode":"aff4960151d113cc","fromSide":"top","toNode":"faee144100a0ab91","toSide":"bottom"}
 	]
 }

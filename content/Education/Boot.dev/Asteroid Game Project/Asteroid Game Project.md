@@ -7,9 +7,24 @@ tags:
   - boot-dev
   - game-development
   - project
-modified: 2024-08-19T14:53:00-04:00
+modified: 2024-08-21T03:13:53-04:00
 ---
 # Asteroid Game Project
+
+## To Do
+- [ ] Add a scoring system
+- [ ] Implement multiple lives and respawning
+- [ ] Add an explosion effect for the asteroids
+- [ ] Add acceleration to the player movement
+- [ ] Make the objects wrap around the screen instead of disappearing
+- [ ] Add a background image
+- [ ] Create different weapon types
+- [ ] Make the asteroids lumpy instead of perfectly round
+- [ ] Make the ship have a triangular hit box instead of a circular one
+- [ ] Add a shield power-up
+- [ ] Add a speed power-up
+- [ ] Add bombs that can be dropped
+- [ ] Deploy and share it with friends and family
 # Build an Asteroids Game
 
 We're going to build a simple video game, based on the classic [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)). If you've never played before, you can take a look at this (slightly different from our) [version of the game](https://freeasteroids.org/).
