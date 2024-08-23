@@ -1,6 +1,6 @@
 ---
 database-plugin: basic
-id: 01J5GMNETV22V76XR5FM5VBNJM
+id: 01J5VNXNA62KZAT1Q1H55QA9F3
 ---
 
 ```yaml:dbfolder
@@ -17,7 +17,7 @@ columns:
     skipPersist: false
     isDragDisabled: false
     csvCandidate: true
-    position: 1
+    position: 0
     isHidden: false
     sortIndex: -1
     config:
@@ -29,16 +29,17 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  Title:
-    input: text
-    accessorKey: Title
-    key: Title
-    id: Title
-    label: Title
-    position: 2
+  newColumn1:
+    input: tags
+    accessorKey: newColumn1
+    key: newColumn1
+    id: newColumn1
+    label: New Column 1
+    position: 100
     skipPersist: false
     isHidden: false
     sortIndex: -1
+    options:
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -58,7 +59,9 @@ columns:
     isDragDisabled: false
     skipPersist: false
     csvCandidate: true
-    position: 3
+    position: 0
+    isHidden: false
+    sortIndex: -1
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -78,7 +81,9 @@ columns:
     isDragDisabled: false
     skipPersist: false
     csvCandidate: true
-    position: 4
+    position: 0
+    isHidden: false
+    sortIndex: -1
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -98,7 +103,9 @@ columns:
     isDragDisabled: false
     skipPersist: false
     csvCandidate: false
-    position: 5
+    position: 0
+    isHidden: false
+    sortIndex: -1
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -118,7 +125,53 @@ columns:
     isDragDisabled: false
     skipPersist: false
     csvCandidate: false
-    position: 6
+    position: 0
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  __outlinks__:
+    key: __outlinks__
+    id: __outlinks__
+    input: outlinks
+    label: Outlinks
+    accessorKey: __outlinks__
+    isMetadata: true
+    isDragDisabled: false
+    skipPersist: false
+    csvCandidate: false
+    position: 0
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  __tags__:
+    key: __tags__
+    id: __tags__
+    input: metadata_tags
+    label: File Tags
+    accessorKey: __tags__
+    isMetadata: true
+    isDragDisabled: false
+    skipPersist: false
+    csvCandidate: false
+    position: 0
+    isHidden: false
+    sortIndex: -1
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -140,8 +193,8 @@ config:
   show_metadata_modified: true
   show_metadata_tasks: true
   show_metadata_inlinks: true
-  show_metadata_outlinks: false
-  show_metadata_tags: false
+  show_metadata_outlinks: true
+  show_metadata_tags: true
   source_data: current_folder
   source_form_result: 
   source_destination_path: /
@@ -151,12 +204,12 @@ config:
   font_size: 16
   enable_js_formulas: false
   formula_folder_path: /
-  inline_default: false
+  inline_default: true
   inline_new_position: last_field
   date_format: yyyy-MM-dd
   datetime_format: "yyyy-MM-dd HH:mm:ss"
   metadata_date_format: "yyyy-MM-dd HH:mm:ss"
-  enable_footer: false
+  enable_footer: true
   implementation: default
 filters:
   enabled: false

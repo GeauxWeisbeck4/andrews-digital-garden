@@ -1,0 +1,289 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "6d9c9bf0-5b24-474f-bb0b-56b459b91e70",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Title",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "72d79975-409e-4314-a628-b9cc3ade6597",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "multi-tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Publication",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "9e00e983-f7fa-4b1d-8b20-917f25b7de2b",
+            "content": "Geaux Code",
+            "color": "blue"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "72c3adb3-b9b2-4041-830e-f2cabd695518",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "embed",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Link",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "77f80ed3-98c1-4c26-a234-1c87f096e901",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "date",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Published",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "ff27d973-7df1-4684-9cf1-d1732a9cc482",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "multi-tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Category",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "92a475fd-327f-4494-ae01-6bd47d7df127",
+            "content": "Coding",
+            "color": "brown"
+          },
+          {
+            "id": "37dee329-5e95-44bf-b79d-13cc9996aad3",
+            "content": "History",
+            "color": "yellow"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "b73eb348-d18b-41ae-bd17-6e9280845e4e",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "multi-tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Platforms",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "1944046f-87e6-4d77-b37b-bf9e0128d68a",
+            "content": "Hashnode",
+            "color": "orange"
+          },
+          {
+            "id": "a16e371d-5ac6-4d69-af8c-1a94b5ff0379",
+            "content": "Twitter",
+            "color": "blue"
+          },
+          {
+            "id": "fcfda976-95d7-4b65-9c58-c511041f5cfc",
+            "content": "Mastodon",
+            "color": "yellow"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "86bc98ef-874c-4a28-9874-bca96b4e40ea",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Description",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "dcf030f3-95c4-4f48-925e-1307a319d654",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-08-21T23:52:43.219Z",
+        "lastEditedDateTime": "2024-08-21T23:54:57.045Z",
+        "cells": [
+          {
+            "id": "e250f9b4-a806-41d9-b20a-d8c9895e19be",
+            "columnId": "6d9c9bf0-5b24-474f-bb0b-56b459b91e70",
+            "content": "Hello World",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4446cfcf-7771-44de-b0a7-aa98fc9ab0c2",
+            "columnId": "72d79975-409e-4314-a628-b9cc3ade6597",
+            "tagIds": [
+              "9e00e983-f7fa-4b1d-8b20-917f25b7de2b"
+            ],
+            "hasValidFrontmatter": null,
+            "multiTagSortDir": "default"
+          },
+          {
+            "id": "3157150c-4bc2-4252-8cc8-2b167d8cbe62",
+            "columnId": "72c3adb3-b9b2-4041-830e-f2cabd695518",
+            "isExternal": false,
+            "pathOrUrl": "",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "12cb4b24-cd97-4074-aa2a-2b87c66e3c49",
+            "columnId": "77f80ed3-98c1-4c26-a234-1c87f096e901",
+            "dateTime": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "211ebd5f-594b-4047-a970-d5a2246e5d54",
+            "columnId": "ff27d973-7df1-4684-9cf1-d1732a9cc482",
+            "tagIds": [
+              "92a475fd-327f-4494-ae01-6bd47d7df127",
+              "37dee329-5e95-44bf-b79d-13cc9996aad3"
+            ],
+            "hasValidFrontmatter": null,
+            "multiTagSortDir": "default"
+          },
+          {
+            "id": "b5b96fdc-4763-484e-be0a-7b13e1a9119c",
+            "columnId": "b73eb348-d18b-41ae-bd17-6e9280845e4e",
+            "tagIds": [
+              "1944046f-87e6-4d77-b37b-bf9e0128d68a",
+              "a16e371d-5ac6-4d69-af8c-1a94b5ff0379",
+              "fcfda976-95d7-4b65-9c58-c511041f5cfc"
+            ],
+            "hasValidFrontmatter": null,
+            "multiTagSortDir": "default"
+          },
+          {
+            "id": "6c6564e7-2e3e-4bd2-8545-2c38954b3e8f",
+            "columnId": "86bc98ef-874c-4a28-9874-bca96b4e40ea",
+            "content": "A tribute to Hello World",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.1"
+}

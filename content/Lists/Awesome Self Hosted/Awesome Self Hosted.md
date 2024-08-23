@@ -9,7 +9,8 @@ tags:
   - linux
   - foss
   - open-source
-modified: 2024-08-21T02:32:38-04:00
+  - "#programming"
+modified: 2024-08-22T11:58:02-04:00
 ---
 # Awesome Self Hosted
 - [GitHub - AzuraCast/AzuraCast: A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations.](https://github.com/AzuraCast/AzuraCast)

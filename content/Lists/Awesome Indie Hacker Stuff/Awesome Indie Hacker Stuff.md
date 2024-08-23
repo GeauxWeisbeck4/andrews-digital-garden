@@ -10,7 +10,8 @@ tags:
   - web-development
   - open-source
   - indie-hacker
-modified: 2024-08-18T12:53:07-04:00
+  - "#programming"
+modified: 2024-08-22T11:57:51-04:00
 ---
 # Awesome Indie Hacker Stuff
 - [About Ideas Now | Search 1000s of personal sites](https://aboutideasnow.com/)

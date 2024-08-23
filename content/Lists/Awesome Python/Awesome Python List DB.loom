@@ -1,0 +1,278 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "a63b6063-272c-4105-9747-ff7e9adbe63a",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Category",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "cfa6068d-1d9c-46f0-9b80-cbe776214622",
+            "content": "Game Development",
+            "color": "pink"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "88efcab4-4c25-46f1-a8b1-d1ce5fbf0976",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Title",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "42ea5980-feb2-42eb-9af2-b96e8396f927",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "embed",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Link",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "ece50b1c-e57e-4e3e-9546-64f3ffcab0c4",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Description",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "51c20e2d-38c9-4fb4-a6dc-b641b78df65a",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "multi-tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Subcategories",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "db539b0a-aa12-4456-8d6c-357bee9a8f00",
+            "content": "Sick Games",
+            "color": "brown"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "b80d1d72-ba4a-4158-93fd-bc19fc8c3386",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "PY",
+        "numberSuffix": "",
+        "numberSeparator": "-",
+        "content": "ID",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "ef4f9db4-e403-4a7b-9e11-baf14833d8e1",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-08-21T16:50:32.043Z",
+        "lastEditedDateTime": "2024-08-21T16:59:09.868Z",
+        "cells": [
+          {
+            "id": "9800bd0c-317f-4c88-a09e-68cdb56b863a",
+            "columnId": "a63b6063-272c-4105-9747-ff7e9adbe63a",
+            "tagId": "cfa6068d-1d9c-46f0-9b80-cbe776214622",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7032c09a-01df-4f1f-b3c3-3a33b8869430",
+            "columnId": "88efcab4-4c25-46f1-a8b1-d1ce5fbf0976",
+            "content": "Pygame",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ea930a7d-5cff-4680-a44b-f51f1c92221b",
+            "columnId": "42ea5980-feb2-42eb-9af2-b96e8396f927",
+            "isExternal": true,
+            "pathOrUrl": "https://www.pygame.org/docs/",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ccbe8ba6-f3fb-4b91-a2ff-fae696497689",
+            "columnId": "ece50b1c-e57e-4e3e-9546-64f3ffcab0c4",
+            "content": "A game development framework/tool in Python",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9b5599f9-3a1a-4606-8157-7e028e575fde",
+            "columnId": "51c20e2d-38c9-4fb4-a6dc-b641b78df65a",
+            "tagIds": [
+              "db539b0a-aa12-4456-8d6c-357bee9a8f00"
+            ],
+            "hasValidFrontmatter": null,
+            "multiTagSortDir": "default"
+          },
+          {
+            "id": "9fb8f10a-dcad-4e3e-a977-5f48e1cb9ea3",
+            "columnId": "b80d1d72-ba4a-4158-93fd-bc19fc8c3386",
+            "content": "PY-GM01",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "94342772-861b-4f3e-a807-a07655a05a7d",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-08-21T16:54:48.552Z",
+        "lastEditedDateTime": "2024-08-21T16:59:14.347Z",
+        "cells": [
+          {
+            "id": "c8aa2fa4-51d7-4f44-975d-9659979e23d5",
+            "columnId": "a63b6063-272c-4105-9747-ff7e9adbe63a",
+            "tagId": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7413c4f7-d06c-4ef1-9b53-c8963827e074",
+            "columnId": "88efcab4-4c25-46f1-a8b1-d1ce5fbf0976",
+            "content": "Imperial Ambitions",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "db95ba48-9cd2-4163-bba2-a8620d4893ae",
+            "columnId": "42ea5980-feb2-42eb-9af2-b96e8396f927",
+            "isExternal": true,
+            "pathOrUrl": "https://wuxia-scrub.itch.io/imperial-ambitions-3k",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "27dc5577-b1cb-4e94-b98d-4195489ba48d",
+            "columnId": "ece50b1c-e57e-4e3e-9546-64f3ffcab0c4",
+            "content": "A sick game created with Pygame",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "afb8d8e0-59a7-4628-a759-71f8e24e14d9",
+            "columnId": "51c20e2d-38c9-4fb4-a6dc-b641b78df65a",
+            "tagIds": [
+              "db539b0a-aa12-4456-8d6c-357bee9a8f00"
+            ],
+            "hasValidFrontmatter": null,
+            "multiTagSortDir": "default"
+          },
+          {
+            "id": "d9a42168-ba00-4c39-aabc-cf3a0aa4b0be",
+            "columnId": "b80d1d72-ba4a-4158-93fd-bc19fc8c3386",
+            "content": "PY-GM01-01",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.1"
+}
