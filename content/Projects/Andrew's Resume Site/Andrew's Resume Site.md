@@ -2,7 +2,7 @@
 id: 01J5RPXY1G4V6B9TABSN5VY41A
 title: Andrew's Resume Site
 description: Creating my resume website to share with potential employers
-modified: 2024-08-20T16:18:12-04:00
+modified: 2024-08-23T22:02:49-04:00
 tags:
   - project
   - resume
@@ -12,4 +12,5 @@ tags:
 # Andrew's Resume Site
 - Creating my resume website with an awesome Astro website template. Need to drop something quick for employers to see.
 	- Will update this later on
+- Need to finish this tonight/now
 - 
