@@ -2,7 +2,7 @@
 id: 01J5NJSWGMTGTRHZKRH6ZFE4HN
 title: Sprints
 description: A place to keep track of all of my sprints with sprint and week number
-modified: 2024-08-20T16:10:30-04:00
+modified: 2024-08-24T10:09:53-04:00
 tags:
   - sprints
   - kanban

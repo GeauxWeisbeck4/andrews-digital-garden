@@ -48,6 +48,11 @@
             "id": "9e00e983-f7fa-4b1d-8b20-917f25b7de2b",
             "content": "Geaux Code",
             "color": "blue"
+          },
+          {
+            "id": "e6d82be3-d0dd-492f-9e96-656c96febdde",
+            "content": "WeisMind Blog",
+            "color": "blue"
           }
         ],
         "calculationType": "none",
@@ -216,19 +221,19 @@
         "index": 0,
         "sourceId": null,
         "creationDateTime": "2024-08-21T23:52:43.219Z",
-        "lastEditedDateTime": "2024-08-21T23:54:57.045Z",
+        "lastEditedDateTime": "2024-08-24T15:14:01.151Z",
         "cells": [
           {
             "id": "e250f9b4-a806-41d9-b20a-d8c9895e19be",
             "columnId": "6d9c9bf0-5b24-474f-bb0b-56b459b91e70",
-            "content": "Hello World",
+            "content": "Awesome Notion Tools to make you a 10x Notioner",
             "hasValidFrontmatter": null
           },
           {
             "id": "4446cfcf-7771-44de-b0a7-aa98fc9ab0c2",
             "columnId": "72d79975-409e-4314-a628-b9cc3ade6597",
             "tagIds": [
-              "9e00e983-f7fa-4b1d-8b20-917f25b7de2b"
+              "e6d82be3-d0dd-492f-9e96-656c96febdde"
             ],
             "hasValidFrontmatter": null,
             "multiTagSortDir": "default"
