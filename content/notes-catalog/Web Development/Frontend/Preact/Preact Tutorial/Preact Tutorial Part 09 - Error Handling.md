@@ -1,6 +1,6 @@
 ---
 id: 01J652EGB4HX3YXVRSCN3E6CGM
-modified: 2024-08-25T11:42:40-04:00
+modified: 2024-08-26T13:14:37-04:00
 title: Preact Tutorial Part 09 - Error Handling
 description: How to handle errors in preact
 tags:
