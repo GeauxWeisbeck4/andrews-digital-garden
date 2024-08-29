@@ -1,6 +1,6 @@
 ---
 id: 01J5HF4PK1A53NH7TCWQTJT869
-modified: 2024-08-22T11:58:35-04:00
+modified: 2024-08-27T08:58:31-04:00
 tags:
   - daily-notes
   - awesome
@@ -9,4 +9,4 @@ tags:
 ---
 # Cool Songs
 - The Fool by Overcoats
-- 
+- Better in the Dark Jordana
