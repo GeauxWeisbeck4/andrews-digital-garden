@@ -1,7 +1,7 @@
 ---
 id: 01J6DGCY5N9TFS7ZPX40YJRZ22
 title: Learn Go Lang  Chapter 3 - Functions
-modified: 2024-08-28T19:39:38-04:00
+modified: 2024-08-29T18:10:44-04:00
 description: Learning how to write functions in Go Lang
 tags:
   - go-lang
@@ -165,3 +165,212 @@ f func(func(int,int) int, int) int
 ## Reference
 
 The [following post on the Go blog](https://blog.golang.org/declaration-syntax) is a great resource for further reading on declaration syntax.
+
+# Passing Variables by Value
+
+Variables in Go are passed by value (except for a few data types we haven't covered yet). "Pass by value" means that when a variable is passed into a function, that function receives a _copy_ of the variable. The function is unable to mutate the caller's original data.
+
+```go
+func main() {
+    x := 5
+    increment(x)
+
+    fmt.Println(x)
+    // still prints 5,
+    // because the increment function
+    // received a copy of x
+}
+
+func increment(x int) {
+    x++
+}
+```
+
+![Copy icon](https://www.boot.dev/img/copy_icon.svg)
+
+## Assignment
+
+Fix the bugs in the `monthlyBillIncrease` and `getBillForMonth` functions.
+
+- `monthlyBillIncrease`: Returns the increase in the bill from the previous to the current month. If the bill decreased, it should return a negative number.
+- `getBillForMonth`: Returns the bill for the given month.
+
+It looks like whoever wrote the `getBillForMonth` function thought that they could pass in the `bill` parameter, update it inside the function, and that update would apply in the parent function (`monthlyBillIncrease`). _They were wrong_.
+
+Change the `getBillForMonth` function to explicitly _return_ the bill for the given month, and be sure to capture that return value properly in the `monthlyBillIncrease` function.
+
+The function signature for `getBillForMonth` should only take 2 parameters once you're done.
+
+## Answer
+
+```go
+package main
+
+func monthlyBillIncrease(costPerSend, numLastMonth, numThisMonth int) int {
+	lastMonthBill := getBillForMonth(costPerSend, numLastMonth)
+	thisMonthBill := getBillForMonth(costPerSend, numThisMonth)
+	return thisMonthBill - lastMonthBill
+}
+
+func getBillForMonth(costPerSend, messagesSent int) int {
+	return costPerSend * messagesSent
+}
+```
+# Ignoring Return Values
+
+A function can return a value that the caller doesn't care about. We can explicitly ignore variables by using an underscore, or more precisely, the [blank identifier `_`](https://go.dev/doc/effective_go#blank).
+
+For example:
+
+```go
+func getPoint() (x int, y int) {
+  return 3, 4
+}
+
+// ignore y value
+x, _ := getPoint()
+```
+
+![Copy icon](https://www.boot.dev/img/copy_icon.svg)
+
+Even though `getPoint()` returns two values, we can capture the first one and ignore the second. In Go, the blank identifier isn't just a convention; it's a real language feature that completely discards the value.
+
+## Why might you ignore a return value?
+
+Maybe a function called `getCircle` returns the center point and the radius, but you only need the radius for your calculation. In that case, you can ignore the center point variable.
+
+The Go compiler will **throw an error** if you have any unused variable declarations in your code, so you _need_ to ignore anything you don't intend to use.
+
+## Assignment
+
+Run the code as-is. You should get a compiler error. Fix the `getProductMessage` to ignore the unused return value.
+
+## Answer
+```go
+package main
+
+func getProductMessage(tier string) string {
+	quantityMsg, priceMsg := getProductInfo(tier)
+	return "You get " + quantityMsg + " for " + priceMsg + "."
+}
+
+// don't touch below this line
+
+func getProductInfo(tier string) (string, string) {
+	if tier == "basic" {
+		return "1,000 texts per month", "$30 per month" 
+	} else if tier == "premium" {
+		return "50,000 texts per month", "$60 per month"
+	} else if tier == "enterprise" {
+		return "unlimited texts per month", "$100 per month"
+	} else {
+		return "", ""
+	}
+}
+```
+# Named Return Values
+
+Return values may be given names, and if they are, then they are treated the same as if they were new variables defined at the top of the function.
+
+Named return values are best thought of as a way to document the purpose of the returned values.
+
+According to the [tour of go](https://tour.golang.org/):
+
+> A return statement without arguments returns the named return values. This is known as a "naked" return. Naked return statements should be used only in short functions. They can harm readability in longer functions.
+
+Use naked returns if it's obvious what the purpose of the returned values is. Otherwise, use named returns for clarity.
+
+```go
+func getCoords() (x, y int){
+  // x and y are initialized with zero values
+
+  return // automatically returns x and y
+}
+```
+
+![Copy icon](https://www.boot.dev/img/copy_icon.svg)
+
+Is the same as:
+
+```go
+func getCoords() (int, int){
+  var x int
+  var y int
+  return x, y
+}
+```
+
+![Copy icon](https://www.boot.dev/img/copy_icon.svg)
+
+In the first example, `x` and `y` are the return values. At the end of the function, we could simply write `return` to return the values of those two variables, rather than writing `return x,y`.
+
+## Assignment
+
+One of our clients likes us to send text messages reminding users of life events coming up.
+
+Fix the bug by using named return values in the function signature. The variables need to be automatically initialized. Order them as they appear in the code. _Do not alter the body of the function_.
+
+## Answer
+
+```go
+package main
+
+func yearsUntilEvents(age int) (yearsUntilAdult int, yearsUntilDrinking int, yearsUntilCarRental int) {
+	yearsUntilAdult = 18 - age
+	if yearsUntilAdult < 0 {
+		yearsUntilAdult = 0
+	}
+	yearsUntilDrinking = 21 - age
+	if yearsUntilDrinking < 0 {
+		yearsUntilDrinking = 0
+	}
+	yearsUntilCarRental = 25 - age
+	if yearsUntilCarRental < 0 {
+		yearsUntilCarRental = 0
+	}
+	return
+}
+```
+# The Benefits of Named Returns
+
+## Good For Documentation (Understanding)
+
+Named return parameters are great for documenting a function. We know what the function is returning directly from its signature, no need for a comment.
+
+Named return parameters are particularly important in longer functions with many return values.
+
+```go
+func calculator(a, b int) (mul, div int, err error) {
+    if b == 0 {
+      return 0, 0, errors.New("Can't divide by zero")
+    }
+    mul = a * b
+    div = a / b
+    return mul, div, nil
+}
+```
+
+Which is easier to understand than:
+
+```go
+func calculator(a, b int) (int, int, error) {
+    if b == 0 {
+      return 0, 0, errors.New("Can't divide by zero")
+    }
+    mul := a * b
+    div := a / b
+    return mul, div, nil
+}
+```
+
+We know _the meaning_ of each return value just by looking at the function signature: `func calculator(a, b int) (mul, div int, err error)`
+
+_Note: `nil` is the zero value of an error. More on this later._
+
+## Less Code (Sometimes)
+
+If there are multiple return statements in a function, you don’t need to write all the return values each time, though you _probably_ should.
+
+When you choose to omit return values, it's called a _naked_ return. Naked returns should only be used in short and simple functions.
+
+## Answer
