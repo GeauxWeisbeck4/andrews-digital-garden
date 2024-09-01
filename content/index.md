@@ -1,7 +1,7 @@
 ---
 title: Welcome to Andrew's Digital Garden!
 id: 01J5GKDSBJP0FBRXKV7ME4BXQ7
-modified: 2024-08-17T14:21:13-04:00
+modified: 2024-09-01T12:45:49-04:00
 ---
 # Andrew's Digital Garden
 
@@ -14,7 +14,7 @@ If you want to jump right into things, you will find these links as a great plac
 - ## [[Projects]]
 - ## [[Journal]]
 - ## [[Sprints]] 
-- ## [[Career]]
+- ## [[Lists]]
 - ## [[Resources]]
 - ## [[Hackathons]]
 ## Notes

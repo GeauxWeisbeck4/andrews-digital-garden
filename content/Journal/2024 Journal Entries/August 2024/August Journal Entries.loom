@@ -1,0 +1,626 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "file",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Journal Entry",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Title",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Day of Week",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "number",
+        "numberPrefix": "AUG",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "ID",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "d0638019-7372-4ac8-8b73-9f89dfb8e838",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:18:39.499Z",
+        "lastEditedDateTime": "2024-09-01T16:29:41.838Z",
+        "cells": [
+          {
+            "id": "3d6d879b-30f5-4611-825e-aff9d8525f78",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-17",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "71088165-b593-432c-a012-4129024fe0b0",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 17, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "399e5b41-9cad-49c1-ae1f-d282aeb09d52",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Saturday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "25a72cb8-0b6b-4aa4-bf9c-ee53284940eb",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1081724,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "fc4aa8b9-70d4-4afa-be3a-fb3b5cf9fb62",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:29.592Z",
+        "lastEditedDateTime": "2024-09-01T16:29:39.502Z",
+        "cells": [
+          {
+            "id": "af2c5996-7190-4a70-8022-f1167e2f88c9",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-18",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "aa2ccac0-f859-4df3-abc0-8a2f1e469f66",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 18, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a1f6649c-a92a-4bc7-a926-1ddd00c2a922",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Suday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "0db409e4-e8b2-4639-80ed-49f57c013d88",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1081824,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "715c1fcf-8070-40da-b29f-3c90a96429dd",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:32.042Z",
+        "lastEditedDateTime": "2024-09-01T16:29:35.907Z",
+        "cells": [
+          {
+            "id": "98a90f40-7f84-48d4-9cf6-0686abb219f8",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-19",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "132f0199-8621-467e-bdec-edfbfe18abb1",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 19, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d044a3c6-bb7b-4cf5-954d-9dfd029116fe",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Monday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "372a04fe-35d1-4ab9-9648-3d84b2eaff3f",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1081924,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "ba3e0d1b-9780-4a27-92ff-8ea06fb5bcff",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:33.923Z",
+        "lastEditedDateTime": "2024-09-01T16:29:31.600Z",
+        "cells": [
+          {
+            "id": "f5b3c828-2864-4836-8a7c-3c8c1853b0b0",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-20",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9a2cbc82-d8e7-47e7-b3b3-dd24428cc7d6",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 20, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "6ca9de77-b302-4030-b4cb-4ee0642a8617",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Tuesday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "f408097b-add8-4cdd-bcd9-94386e688678",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082024,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "b033216b-47eb-4b2b-a147-92361c8058a9",
+        "index": 4,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:35.293Z",
+        "lastEditedDateTime": "2024-09-01T16:29:50.754Z",
+        "cells": [
+          {
+            "id": "b2b3f7f5-c885-421d-a7be-4be36617efb9",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-21",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8203b4b0-32db-4fc7-917e-b31cc4b5a74a",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 21, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5f026e08-678a-40d9-98ed-20938a6e4802",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Wednesday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e06f782f-53a3-4009-b8e6-11182ec1af43",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082124,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "c9747ede-6df0-4831-9959-62c9b66f63a9",
+        "index": 5,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:35.931Z",
+        "lastEditedDateTime": "2024-09-01T16:29:58.123Z",
+        "cells": [
+          {
+            "id": "5bd010d6-1f07-45c4-be8c-de349fba2435",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-22",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4281a7c5-2006-470a-9b08-6cfca6c8fda4",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 22, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "eb353e4c-7a33-4870-9e2c-51e1b81f903c",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Thursday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "aee42fef-b949-4ab3-8e6a-7c3f536ea7fb",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082224,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "9e12b9c8-ac07-4245-ada7-91cb7cdf3466",
+        "index": 6,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:36.078Z",
+        "lastEditedDateTime": "2024-09-01T16:30:02.198Z",
+        "cells": [
+          {
+            "id": "c5efcecd-964c-451e-8fdc-ec2690308068",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-23",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "f562243e-1b42-41a9-ab1d-d21939f0e454",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 23, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4f4f14db-aa3a-4d3d-a565-fb09ae693602",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Friday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b9bba419-7f58-42b0-b9af-cb9476ef31c4",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082324,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "58375f33-3470-400f-b2ac-9960ea4feae6",
+        "index": 7,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:36.229Z",
+        "lastEditedDateTime": "2024-09-01T16:30:08.242Z",
+        "cells": [
+          {
+            "id": "ab3a33e0-ba2c-4a0f-9f88-59a2f0b71318",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-24",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "69979b7f-65e6-4946-b288-56820730ba70",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 24, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b2b935d2-bb94-4f9c-989d-1a9e0c0d3200",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Saturday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "aa2ed82a-897c-4d5b-abda-10dc69c9e765",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082424,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "98b573d3-2582-4d14-93ff-e1094446e5de",
+        "index": 8,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:36.372Z",
+        "lastEditedDateTime": "2024-09-01T16:30:13.187Z",
+        "cells": [
+          {
+            "id": "78ba03c2-bea0-4f67-9c54-d6e79ce2584f",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-25",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d68e8084-e975-4afd-b269-b8045550c27c",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 25, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e774acd8-804f-4d86-bb6c-5339cab6634f",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Sunday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "bbf2204c-6ea4-4e8a-b55a-8667e1278ef7",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082524,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "242de428-e795-4ec3-951c-7f5ecfcf78dd",
+        "index": 9,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:36.497Z",
+        "lastEditedDateTime": "2024-09-01T16:30:18.481Z",
+        "cells": [
+          {
+            "id": "e3a871c9-68f0-4e45-b078-371878d12a98",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-26",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "32d6917d-a318-4c5c-9874-706b669bcb10",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 26, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "63f8db40-31ba-4dd3-a52c-17a26d0dc18a",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Monday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "aaad4db2-aaa8-4a99-88de-8706a907dc2a",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082624,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "8abca4b3-20a1-403b-aa01-7fb43e97a425",
+        "index": 10,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:20:36.725Z",
+        "lastEditedDateTime": "2024-09-01T16:30:23.887Z",
+        "cells": [
+          {
+            "id": "53a7c1f8-1e79-40fa-a60c-a11d3ae5b314",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-27",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "6e1281bf-20a3-47bc-b259-a263e0826c3d",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 27, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9be0f9cd-3c1d-497b-ad15-ccfe5094aea2",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Tuesday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "366aa59f-6cc2-4e0a-aa63-93761fec503c",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082724,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "4d521fed-b9c9-4800-8ba5-cdfba8440944",
+        "index": 11,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:21:38.339Z",
+        "lastEditedDateTime": "2024-09-01T16:30:29.542Z",
+        "cells": [
+          {
+            "id": "1534ec62-dbdf-4b3f-b93a-5deb654a84d4",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-28",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "38eb8649-5c93-4083-ac79-63341a454079",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 28, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "445ae158-cdbb-4c96-a843-c14cbe01e699",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Wednesday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8b54af8b-4b99-4d42-8a71-eb4773130a0c",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082824,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "3ccba78f-8a5d-4c9b-8b7b-97ea6f42accf",
+        "index": 12,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:21:39.134Z",
+        "lastEditedDateTime": "2024-09-01T16:30:33.542Z",
+        "cells": [
+          {
+            "id": "d19a3457-9e5f-40ed-8d3c-e0011312f5c1",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-29",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7e7637e0-ba82-41d8-b395-96b7d610b582",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 29, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "08266504-e391-46ca-b73b-9c7c0758a254",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Thursday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ce5d68ed-6a65-4993-890d-0c8e49bc3495",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1082924,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "5298a90b-30ba-4bbb-83d7-b78d1b3face1",
+        "index": 13,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:21:39.662Z",
+        "lastEditedDateTime": "2024-09-01T16:30:39.058Z",
+        "cells": [
+          {
+            "id": "2f68f20b-d88c-43ba-8180-82121881eac1",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-30",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8f354ba4-3bd1-4433-a1b6-e1799a09dc5d",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 30, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "620eb706-b24f-4353-b407-894c7f5d7225",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Friday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2ac4eb89-a83d-4fb1-a9d4-1478b1145b64",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1083024,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "dc3bc414-1ac0-4acb-908b-7086091fdc7d",
+        "index": 14,
+        "sourceId": null,
+        "creationDateTime": "2024-09-01T16:21:40.087Z",
+        "lastEditedDateTime": "2024-09-01T16:30:43.443Z",
+        "cells": [
+          {
+            "id": "d2454ae7-364d-425e-857a-21a5f15b6011",
+            "columnId": "ef4eebae-ed38-42d9-b5f9-9f5bece199bd",
+            "path": "Journal/2024 Journal Entries/August 2024/2024-08-31",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "f4aea76a-7771-400d-a13c-b9224d28cfaa",
+            "columnId": "3b9dd6df-6394-4e0d-b3b9-abb351cf9ef4",
+            "content": "August 31, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "fae14a1d-c0c8-4bcd-b813-645fd8c09c03",
+            "columnId": "25909cb8-ad4c-42d8-83ab-4e3b9f7dd41b",
+            "content": "Saturday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ff1cdf0f-91c6-488e-9e71-e110f9382032",
+            "columnId": "690cfb80-4e9a-4306-8dcf-79976d3b4081",
+            "value": 1083124,
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.1"
+}

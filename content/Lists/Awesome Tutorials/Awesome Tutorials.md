@@ -2,7 +2,7 @@
 id: 01J5TQYMH20CGV5QCQF18WHG1X
 title: Awesome Tutorials
 description: A list of some of the best and my most favorite tutorials
-modified: 2024-08-27T16:30:04-04:00
+modified: 2024-09-01T12:17:13-04:00
 tags:
   - tutorial
   - programming
@@ -30,4 +30,7 @@ tags:
 - [GitHub - Savjee/SavjeeCoin: A simple blockchain in Javascript. For educational purposes only.](https://github.com/Savjee/SavjeeCoin)
 - [GitHub - nambrot/blockchain-in-js: Build your own blockchain!](https://github.com/nambrot/blockchain-in-js)
 - [GitHub - conradoqg/naivecoin: A cryptocurrency implementation in less than 1500 lines of code](https://github.com/conradoqg/naivecoin)
+
+## CLI Tutorials & Guides
+- [Fetching Title#k9kl](https://github.com/lirantal/nodejs-cli-apps-best-practices)
 - 
