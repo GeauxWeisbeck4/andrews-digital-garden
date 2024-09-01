@@ -1,7 +1,7 @@
 ---
 id: 01J6DGCY5N9TFS7ZPX40YJRZ22
 title: Learn Go Lang  Chapter 3 - Functions
-modified: 2024-08-29T18:10:44-04:00
+modified: 2024-08-30T17:31:56-04:00
 description: Learning how to write functions in Go Lang
 tags:
   - go-lang
@@ -374,3 +374,155 @@ If there are multiple return statements in a function, you don’t need to write
 When you choose to omit return values, it's called a _naked_ return. Naked returns should only be used in short and simple functions.
 
 ## Answer
+
+```go
+package main
+
+func yearsUntilEvents(age int) (yearsUntilAdult, yearsUntilDrinking, yearsUntilCarRental int) {
+	yearsUntilAdult = 18 - age
+	if yearsUntilAdult < 0 {
+		yearsUntilAdult = 0
+	}
+	yearsUntilDrinking = 21 - age
+	if yearsUntilDrinking < 0 {
+		yearsUntilDrinking = 0
+	}
+	yearsUntilCarRental = 25 - age
+	if yearsUntilCarRental < 0 {
+		yearsUntilCarRental = 0
+	}
+	return yearsUntilAdult, yearsUntilDrinking, yearsUntilCarRental
+}
+
+```
+# Early Returns
+
+Go supports the ability to return early from a function. This is a powerful feature that can clean up code, especially when used as guard clauses.
+
+Guard Clauses leverage the ability to `return` early from a function (or `continue` through a loop) to make nested conditionals one-dimensional. Instead of using if/else chains, we just return early from the function at the end of each conditional block.
+
+```go
+func divide(dividend, divisor int) (int, error) {
+	if divisor == 0 {
+		return 0, errors.New("Can't divide by zero")
+	}
+	return dividend/divisor, nil
+}
+```
+
+![Copy icon](https://www.boot.dev/img/copy_icon.svg)
+
+Error handling in Go naturally encourages developers to make use of guard clauses. When I started writing more JavaScript, I was disappointed to see how many nested conditionals existed in the code I was working on.
+
+Let’s take a look at an exaggerated example of nested conditional logic:
+
+```go
+func getInsuranceAmount(status insuranceStatus) int {
+  amount := 0
+  if !status.hasInsurance(){
+    amount = 1
+  } else {
+    if status.isTotaled(){
+      amount = 10000
+    } else {
+      if status.isDented(){
+        amount = 160
+        if status.isBigDent(){
+          amount = 270
+        }
+      } else {
+        amount = 0
+      }
+    }
+  }
+  return amount
+}
+```
+
+![Copy icon](https://www.boot.dev/img/copy_icon.svg)
+
+This could be written with guard clauses instead:
+
+```go
+func getInsuranceAmount(status insuranceStatus) int {
+  if !status.hasInsurance(){
+    return 1
+  }
+  if status.isTotaled(){
+    return 10000
+  }
+  if !status.isDented(){
+    return 0
+  }
+  if status.isBigDent(){
+    return 270
+  }
+  return 160
+}
+```
+
+The example above is _much_ easier to read and understand. When writing code, it’s important to try to reduce the cognitive load on the reader by reducing the number of entities they need to think about at any given time.
+
+In the first example, if the developer is trying to figure out when `270` is returned, they need to think about each branch in the logic tree and try to remember which cases matter and which cases don’t. With the one-dimensional structure offered by guard clauses, it’s as simple as stepping through each case in order.
+
+# Functions as values
+
+Go supports [first-class](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function) and higher-order functions, which are just fancy ways of saying "functions as values". Functions are just another type -- like `int`s and `string`s and `bool`s.
+
+To dynamically accept a function as a parameter to another function:
+
+```go
+func add(x, y int) int {
+	return x + y
+}
+
+func mul(x, y int) int {
+	return x * y
+}
+
+// aggregate applies the given math function
+// called "arithmetic" to all three integers
+// instead of just the two it was capable of before
+func aggregate(a, b, c int, arithmetic func(int, int) int) int {
+  firstSum := arithmetic(a, b)
+  secondSum := arithmetic(firstSum, c)
+  return secondSum
+}
+
+func main() {
+	sum := aggregate(2, 3, 4, add)
+	// sum is 9
+	product := aggregate(2, 3, 4, mul)
+	// product is 24
+}
+```
+
+![Copy icon](https://www.boot.dev/img/copy_icon.svg)
+
+## Assignment
+
+Complete the `reformat` function. It takes a `message` string and a `formatter` function as input:
+
+1. Apply the given `formatter` _three times_ to the `message`
+2. Add a prefix of `TEXTIO:` to the result
+3. Return the final string
+
+For example, if the `message` is "General Kenobi" and the `formatter` adds a period to the end of the string, the final result should be
+
+```
+TEXTIO: General Kenobi...
+```
+
+## Answer
+```go
+package main
+
+func reformat(message string, formatter func(string) string) string {
+	once := formatter(message)
+	twice := formatter(once)
+	thrice := formatter(twice)
+	prefix := "TEXTIO: "
+	return prefix + thrice
+}
+
+```
