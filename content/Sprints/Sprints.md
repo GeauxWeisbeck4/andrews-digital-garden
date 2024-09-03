@@ -20,5 +20,5 @@ tags:
 	- [x] Sprint Two Week One ✅ 2024-08-20
 	- [x] [[Sprint Two Week Two]] ✅ 2024-08-27
 - [x] Sprint Three 🛫 2024-08-26 📅 2024-09-08 ✅ 2024-09-02
-	- [ ] [[Sprint Three Week One]] 2024-08-26
+	- [ ] [[Sprint Three Week Two]] 2024-08-26
 	- [ ] Sprint Three Week Two 2024-09-02
