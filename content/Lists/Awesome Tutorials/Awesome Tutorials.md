@@ -2,7 +2,7 @@
 id: 01J5TQYMH20CGV5QCQF18WHG1X
 title: Awesome Tutorials
 description: A list of some of the best and my most favorite tutorials
-modified: 2024-09-01T12:17:13-04:00
+modified: 2024-09-01T13:36:00-04:00
 tags:
   - tutorial
   - programming
@@ -21,6 +21,9 @@ tags:
 	- #### [[Nest.js]] Tutorials #nestjs #tutorial 
 	- [Server Setup Basics](https://becomesovran.com/blog/server-setup-basics.html) #servers 
 		- An awesome tutorial series on how to setup server for hosting
+- ### Full Stack Tutorials #full-stack #tutorial 
+	- [Astro UI Framework \[Full Book\]](https://www.freecodecamp.org/news/how-to-use-the-astro-ui-framework/)
+	- 
 
 ## Project Based Learning
 - [GitHub - Xtremilicious/projectlearn-project-based-learning: A curated list of project tutorials for project-based learning.](https://github.com/Xtremilicious/projectlearn-project-based-learning)

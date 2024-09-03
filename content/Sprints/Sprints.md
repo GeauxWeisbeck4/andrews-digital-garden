@@ -2,7 +2,7 @@
 id: 01J5NJSWGMTGTRHZKRH6ZFE4HN
 title: Sprints
 description: A place to keep track of all of my sprints with sprint and week number
-modified: 2024-08-27T07:41:59-04:00
+modified: 2024-09-02T22:52:22-04:00
 tags:
   - sprints
   - kanban
@@ -19,6 +19,6 @@ tags:
 - ### Sprint Two 🔺 ➕ 2024-08-12 🛫 2024-08-12 ⏳ 2024-08-12 📅 2024-08-25
 	- [x] Sprint Two Week One ✅ 2024-08-20
 	- [x] [[Sprint Two Week Two]] ✅ 2024-08-27
-- [ ] Sprint Three 🛫 2024-08-26 📅 2024-09-08
+- [x] Sprint Three 🛫 2024-08-26 📅 2024-09-08 ✅ 2024-09-02
 	- [ ] [[Sprint Three Week One]] 2024-08-26
 	- [ ] Sprint Three Week Two 2024-09-02

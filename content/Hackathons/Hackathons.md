@@ -5,8 +5,9 @@ description: Where I store my notes pertaining to hackathons
 tags:
   - hackathon
   - programming
-modified: 2024-09-01T12:46:43-04:00
+modified: 2024-09-01T12:47:37-04:00
 ---
 # Hackathons
 - ## [[Neon OSS Starter Hackathon]]
 - ## [[TiDB Hackathon]]
+- 
