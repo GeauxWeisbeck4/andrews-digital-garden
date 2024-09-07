@@ -29,5 +29,21 @@
   "log_render": false,
   "log_render_files": false,
   "recently_sent_retry_notice": false,
-  "version": "2.1.95"
+  "version": "2.1.95",
+  "muted_notices": {
+    "embedding_complete": true,
+    "Notice muted": true
+  },
+  "smart_sources": {
+    "embed_model_key": "TaylorAI/bge-micro-v2",
+    "embed_model": {
+      "TaylorAI/bge-micro-v2": {}
+    }
+  },
+  "smart_blocks": {
+    "embed_model_key": "None",
+    "embed_model": {
+      "None": {}
+    }
+  }
 }

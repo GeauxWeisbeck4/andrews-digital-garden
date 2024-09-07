@@ -1,7 +1,7 @@
 ---
 id: 01J5KP889E91933M73TG2WFY0A
 title: Pure Functions
-modified: 2024-08-18T20:27:13-04:00
+modified: 2024-09-03T10:58:28-04:00
 description: How to use pure functions in Python
 tags:
   - functional-programming
