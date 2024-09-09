@@ -2,7 +2,7 @@
 id: 01J5TQYMH20CGV5QCQF18WHG1X
 title: Awesome Tutorials
 description: A list of some of the best and my most favorite tutorials
-modified: 2024-09-01T13:36:00-04:00
+modified: 2024-09-09T12:06:39-04:00
 tags:
   - tutorial
   - programming
@@ -36,4 +36,7 @@ tags:
 
 ## CLI Tutorials & Guides
 - [Fetching Title#k9kl](https://github.com/lirantal/nodejs-cli-apps-best-practices)
+
+## YouTube Tutorials
+- [Let's Build 10 Python Projects \[FREE COURSE\] - YouTube](https://www.youtube.com/watch?v=SbpQJL49A_Y&ref=dailydev)
 - 

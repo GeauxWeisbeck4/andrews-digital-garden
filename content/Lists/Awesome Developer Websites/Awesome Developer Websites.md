@@ -2,7 +2,7 @@
 id: 01J614DAFECZ6QQPBFWBNE0R4P
 title: Awesome Developer Websites
 description: List of awesome developer websites
-modified: 2024-08-27T09:24:30-04:00
+modified: 2024-09-09T11:53:58-04:00
 tags:
   - awesome
   - lists
@@ -14,5 +14,6 @@ tags:
 
 ## Code Quality/Testing
 - [Home - TIOBE](https://www.tiobe.com/)
+- [SD Times - Software Development News](https://sdtimes.com/)
 - 
 - 

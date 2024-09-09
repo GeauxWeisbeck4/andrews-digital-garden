@@ -142,31 +142,31 @@
         "index": 1,
         "sourceId": null,
         "creationDateTime": "2024-09-01T16:35:17.909Z",
-        "lastEditedDateTime": "2024-09-01T16:35:17.909Z",
+        "lastEditedDateTime": "2024-09-09T14:43:02.989Z",
         "cells": [
           {
             "id": "436cbc14-ce81-427b-b471-865fc88de471",
             "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
-            "path": "",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-02",
             "alias": null,
             "hasValidFrontmatter": null
           },
           {
             "id": "69ba5344-254d-46a9-8b2c-ec085a41102d",
             "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
-            "content": "",
+            "content": "September 2, 2024",
             "hasValidFrontmatter": null
           },
           {
             "id": "c0eecca7-787d-419b-bdd8-27c76842f4ad",
             "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
-            "content": "",
+            "content": "Monday",
             "hasValidFrontmatter": null
           },
           {
             "id": "7150d350-ae4d-49a3-84d5-0c60d841e73e",
             "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
-            "value": null,
+            "value": 1090224,
             "hasValidFrontmatter": null
           }
         ]
@@ -176,31 +176,31 @@
         "index": 2,
         "sourceId": null,
         "creationDateTime": "2024-09-01T16:35:19.221Z",
-        "lastEditedDateTime": "2024-09-01T16:35:19.221Z",
+        "lastEditedDateTime": "2024-09-09T14:43:09.229Z",
         "cells": [
           {
             "id": "0d709dd5-d5e0-4a37-b40f-72102205c073",
             "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
-            "path": "",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-03",
             "alias": null,
             "hasValidFrontmatter": null
           },
           {
             "id": "7b4f67b1-443e-44c9-9edb-02d00e11d602",
             "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
-            "content": "",
+            "content": "September 3, 2024",
             "hasValidFrontmatter": null
           },
           {
             "id": "9f69b62e-73b2-419a-8a0a-d8b672f6df9d",
             "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
-            "content": "",
+            "content": "Tuesday",
             "hasValidFrontmatter": null
           },
           {
             "id": "35c07b30-c208-4876-967b-046bb2d3f155",
             "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
-            "value": null,
+            "value": 1090324,
             "hasValidFrontmatter": null
           }
         ]
@@ -210,31 +210,31 @@
         "index": 3,
         "sourceId": null,
         "creationDateTime": "2024-09-01T16:35:20.375Z",
-        "lastEditedDateTime": "2024-09-01T16:35:20.375Z",
+        "lastEditedDateTime": "2024-09-09T14:43:13.793Z",
         "cells": [
           {
             "id": "a4367201-56a2-45b1-b8c9-bdc5b18d8bc7",
             "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
-            "path": "",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-04",
             "alias": null,
             "hasValidFrontmatter": null
           },
           {
             "id": "8c6fd2a9-0017-4244-a71e-a320e8dc90fe",
             "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
-            "content": "",
+            "content": "September 4, 2024",
             "hasValidFrontmatter": null
           },
           {
             "id": "f3a134ee-b7ab-4118-a8e3-3b6391f49d3a",
             "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
-            "content": "",
+            "content": "Wednesday",
             "hasValidFrontmatter": null
           },
           {
             "id": "46fa440d-f7f3-4214-9bb0-0869661e3578",
             "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
-            "value": null,
+            "value": 1090424,
             "hasValidFrontmatter": null
           }
         ]
@@ -244,31 +244,31 @@
         "index": 4,
         "sourceId": null,
         "creationDateTime": "2024-09-01T16:35:30.183Z",
-        "lastEditedDateTime": "2024-09-01T16:35:30.183Z",
+        "lastEditedDateTime": "2024-09-09T14:43:18.704Z",
         "cells": [
           {
             "id": "0268a0de-5e89-46f6-8bba-ff17dec738a8",
             "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
-            "path": "",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-05",
             "alias": null,
             "hasValidFrontmatter": null
           },
           {
             "id": "19a22704-093a-4195-92df-de88476350cd",
             "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
-            "content": "",
+            "content": "September 5, 2024",
             "hasValidFrontmatter": null
           },
           {
             "id": "6a105aa0-3602-47d3-813e-ff4cc618347d",
             "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
-            "content": "",
+            "content": "Thursday",
             "hasValidFrontmatter": null
           },
           {
             "id": "c61013de-3e57-4605-b173-4d504039161a",
             "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
-            "value": null,
+            "value": 1090524,
             "hasValidFrontmatter": null
           }
         ]
@@ -278,29 +278,301 @@
         "index": 5,
         "sourceId": null,
         "creationDateTime": "2024-09-01T16:35:34.948Z",
-        "lastEditedDateTime": "2024-09-01T16:35:34.948Z",
+        "lastEditedDateTime": "2024-09-09T14:43:22.990Z",
         "cells": [
           {
             "id": "10e0f3d8-8cd9-4bdd-8764-ae13ffc1df4b",
             "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
-            "path": "",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-06",
             "alias": null,
             "hasValidFrontmatter": null
           },
           {
             "id": "766c9d88-b04c-4d54-8995-6ea5bc2b450e",
             "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
-            "content": "",
+            "content": "September 6, 2024",
             "hasValidFrontmatter": null
           },
           {
             "id": "b202f460-c6ea-4225-8434-f0473e0e3a56",
             "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
-            "content": "",
+            "content": "Friday",
             "hasValidFrontmatter": null
           },
           {
             "id": "2453c373-a7f5-4a28-a8fb-7f8e795c1baf",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": 1090624,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "64c3c1a8-5507-41c1-a431-b944d3422e00",
+        "index": 6,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:43.065Z",
+        "lastEditedDateTime": "2024-09-09T14:43:28.260Z",
+        "cells": [
+          {
+            "id": "3d02fcd1-b6f7-46d4-a0ae-ec34eae13c93",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-07",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1f446aa1-24ec-4fc9-8837-1a654037557a",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "September 7, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "6d251280-8c06-4526-b0a5-411ecacbde5b",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "Saturday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "c01554ff-34cd-42f3-adb0-432ac26b83e9",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": 1090724,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "833babb7-376d-46e8-aa2b-ce080f7a79a8",
+        "index": 7,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:44.111Z",
+        "lastEditedDateTime": "2024-09-09T14:43:32.245Z",
+        "cells": [
+          {
+            "id": "947ccf9d-6f05-454c-85b9-106fb65f7d71",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-08",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "69256db1-96de-4658-a91b-95de9bb28a66",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "September 8, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7ff1131b-7de2-478b-9799-42c01e1beeda",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "Sunday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "14822b4d-ed29-4512-9951-6d3ffcb9d3f8",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": 1090824,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "e88c5f0b-aeb1-47aa-a0be-581f90ce3873",
+        "index": 8,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:44.693Z",
+        "lastEditedDateTime": "2024-09-09T14:43:36.586Z",
+        "cells": [
+          {
+            "id": "9855005f-1136-47af-b63c-13de42524c0c",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-09",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "681d1a04-979a-4f56-992a-8a2fed8adb31",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "September 9, 2024",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "538edf6f-153f-4947-b25a-16abd7d8ae51",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "Monday",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "04ae92e4-9782-4963-b018-9794a6b7dd31",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": 1090924,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "a5fbe885-abe0-464b-a6c1-8f19f0498c3f",
+        "index": 9,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:44.915Z",
+        "lastEditedDateTime": "2024-09-09T14:40:44.915Z",
+        "cells": [
+          {
+            "id": "b8b7688d-472d-42d9-9f59-de8d8a9d7668",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2dcc1a46-7fc3-437a-b438-c564dc5fcc2a",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ff3d24eb-c9d3-43dd-b922-d6c2d6c96e21",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "c03a0213-1a2f-4dbb-83f4-63cc68305771",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": null,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "cb0a5beb-5d6c-4e97-af3c-02d332bbe83f",
+        "index": 10,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:45.057Z",
+        "lastEditedDateTime": "2024-09-09T14:40:45.057Z",
+        "cells": [
+          {
+            "id": "dc6ea04d-d90e-4a7d-828d-30534e2c36a3",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "60fb7223-203f-4350-9445-bd0981be4db8",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "56202bf2-ff2d-4044-bd5c-dfa003ecd348",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "717b222d-6827-4456-90be-4f29bd0067ad",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": null,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "a5fc77b8-16b5-494d-80f8-a4a070187e64",
+        "index": 11,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:45.208Z",
+        "lastEditedDateTime": "2024-09-09T14:40:45.208Z",
+        "cells": [
+          {
+            "id": "1dd57248-302d-43fe-8ae0-1626133f66ec",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "6a2910e6-8525-41d4-9918-24e3fc2545f2",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8a7f4fda-142f-41c4-91b7-c67d160eebf0",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "83884ee3-7d0d-438f-8df0-3ad6d29db5de",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": null,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "e1889979-c729-4408-a8e6-a3254fd9fe6e",
+        "index": 12,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:45.342Z",
+        "lastEditedDateTime": "2024-09-09T14:40:45.342Z",
+        "cells": [
+          {
+            "id": "67fa75eb-b85e-49e2-ab8e-531db06f9232",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ed1c19af-e4db-44dd-a2d0-ebe25dd1310f",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e192c51c-0ffe-4e0d-b885-5c9bd626042f",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "74e036af-75b9-43d6-9557-ed9d55844f7d",
+            "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
+            "value": null,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "2b3ecd5a-b051-4ffe-8f28-2c7a8c74c5d2",
+        "index": 13,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T14:40:45.474Z",
+        "lastEditedDateTime": "2024-09-09T14:40:45.474Z",
+        "cells": [
+          {
+            "id": "cad3418e-a5a9-4e60-8851-cd72bb6d0a01",
+            "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
+            "path": "",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e25a2b81-d663-45ea-acbe-f3a7d2eae99c",
+            "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b0bbe606-7881-4c69-b926-1cda3182e314",
+            "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8e9e8777-73d8-439e-8622-56f922c312d0",
             "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
             "value": null,
             "hasValidFrontmatter": null

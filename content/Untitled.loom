@@ -1,0 +1,267 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "152ff787-44d7-4f4a-a48e-153ca6352559",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Title",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "3462b326-e4b9-4dbb-a5f0-ec8d9592f384",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "file",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Note",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "bd521764-632a-4203-8c13-5a846e5b9a01",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Description",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "f95f7309-a2e8-4ee0-889b-bb52be84551c",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Due Date",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "e568f08d-0cf8-4063-b3e2-08165ff3c36d",
+            "content": "backlog",
+            "color": "pink"
+          },
+          {
+            "id": "688ea259-0b87-401a-9da3-627bb16e2106",
+            "content": "writing",
+            "color": "yellow"
+          },
+          {
+            "id": "b998c6d0-9db5-4d9e-a8b0-b966c221540d",
+            "content": "designing",
+            "color": "green"
+          },
+          {
+            "id": "d0379843-41c5-49a4-939a-cbe08d8510fb",
+            "content": "editing",
+            "color": "brown"
+          },
+          {
+            "id": "ef7e2cbe-42c4-4e34-ba9f-4a24b241b6eb",
+            "content": "published",
+            "color": "pink"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "f5f6e6c3-ab04-486b-bcb6-780b7a1496a7",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "creation-time",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Description",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "b48871fe-0a38-4748-8b7b-14d31024d79f",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "last-edited-time",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "New Column",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "3bb36201-8a57-4ac3-880f-6a3d70241b5f",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "number",
+        "numberPrefix": "WEIS",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "ID",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "98d6682a-d2aa-450e-8d7d-3815b4c5c084",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-09-09T15:39:45.540Z",
+        "lastEditedDateTime": "2024-09-09T15:42:58.848Z",
+        "cells": [
+          {
+            "id": "c3aba229-21d5-4597-9340-52f59172d5c2",
+            "columnId": "152ff787-44d7-4f4a-a48e-153ca6352559",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ebd41d62-7f5a-4e66-9565-c780917325a2",
+            "columnId": "3462b326-e4b9-4dbb-a5f0-ec8d9592f384",
+            "path": "",
+            "alias": null,
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2760dd00-6f0f-4321-b64e-d88cff24641f",
+            "columnId": "bd521764-632a-4203-8c13-5a846e5b9a01",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "20429607-c8ca-4812-8b51-5b9fe6702c6e",
+            "columnId": "f95f7309-a2e8-4ee0-889b-bb52be84551c",
+            "tagId": "b998c6d0-9db5-4d9e-a8b0-b966c221540d",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "0cec564a-366d-4b65-9909-b29934102a2b",
+            "columnId": "f5f6e6c3-ab04-486b-bcb6-780b7a1496a7",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4247d954-1224-48ce-9641-19a196627f29",
+            "columnId": "b48871fe-0a38-4748-8b7b-14d31024d79f",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2299cd23-237e-4ba4-a984-893973dbeb89",
+            "columnId": "3bb36201-8a57-4ac3-880f-6a3d70241b5f",
+            "value": 1,
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.1"
+}
