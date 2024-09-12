@@ -1,6 +1,6 @@
 ---
 id: 01J7AHPFFRKVATVYT0J4AAHFGV
-modified: 2024-09-10T09:55:43-04:00
+modified: 2024-09-12T01:32:49-04:00
 title: Chapter Three - JavaScript Primer Pt 1
 description: Learning about using and coercing JavaScript Types
 tags:
@@ -918,3 +918,319 @@ Boots: 100, 120
 Boots: 120, 144
 
 ## 3.6 Understanding the this keyword
+
+The `this` keyword can be confusing to even experienced JavaScript programmers. In other programming languages, `this` is used to refer to the current instance of an object created from a class. In JavaScript, the `this` keyword can often appear to work the same way—right up until the moment a change breaks the application and `undefined` values start to appear.
+
+To demonstrate, I used the fat arrow syntax to redefine the method on the `hat` object, as shown in listing 3.35.
+
+Listing 3.35 Using the fat arrow syntax in the index.js file in the primer folder
+
+let hat = {
+    name: "Hat",    
+    _price: 100,
+    priceIncTax: 100 * 1.2,
+ 
+    set price(newPrice) {
+        this._price = newPrice;
+        this.priceIncTax = this._price * 1.2;
+    },
+ 
+    get price() {
+        return this._price;
+    },
+ 
+    **writeDetails: () =>** 
+        **console.log(`${this.name}: ${this.price}, ${this.priceIncTax}`)**
+};
+
+let boots = {
+    name: "Boots",
+    price: "100",
+ 
+    get priceIncTax() {
+        return Number(this.price) * 1.2;
+    }
+}
+
+hat.writeDetails();
+hat.price = 120;
+hat.writeDetails();
+
+console.log(`Boots: ${boots.price}, ${boots.priceIncTax}`);
+boots.price = "120";
+console.log(`Boots: ${boots.price}, ${boots.priceIncTax}`);
+
+The method uses the same `console.log` statement as listing 3.34, but when the change is saved and the code is executed, the output shows `undefined` values, like this:
+
+**undefined: undefined, undefined**
+**undefined: undefined, undefined**
+Boots: 100, 120
+Boots: 120, 144
+
+Understanding why this happens and being able to fix the problem requires taking a step back and examining what the `this` keyword really does in JavaScript.
+
+### 3.6.1 Understanding the this keyword in stand-alone functions
+
+The `this` keyword can be used in any function, even when that function isn’t used as a method, as shown in listing 3.36.
+
+Listing 3.36 Invoking a function in the index.js file in the primer folder
+
+function writeMessage(message) {
+    console.log(`${this.greeting}, ${message}`);
+}
+
+greeting = "Hello";
+
+writeMessage("It is sunny today");
+
+The `writeMessage` function reads a property named `greeting` from `this` in one of the expressions in the template string passed to the `console.log` method. The `this` keyword doesn’t appear again in the listing, but when the code is saved and executed, the following output is produced:
+
+Hello, It is sunny today
+
+JavaScript defines a global object, which can be assigned values that are available throughout an application. The global object is used to provide access to the essential features in the execution environment, such as the `document` object in browsers that allows interaction with the Document Object Model API.
+
+Values assigned names without using the `let`, `const`, or `var` keyword are assigned to the global object. The statement that assigns the string value `Hello` creates a variable in the global scope. When the function is executed, `this` is assigned the global object, so reading `this.greeting` returns the `string` value `Hello`, explaining the output produced by the application.
+
+The standard way to invoke a function is to use parentheses that contain arguments, but in JavaScript, this is a convenience syntax that is translated into the statement shown in listing 3.37.
+
+Listing 3.37 Invoking a function in the index.js file in the primer folder
+
+function writeMessage(message) {
+    console.log(`${this.greeting}, ${message}`);
+}
+
+greeting = "Hello";
+
+writeMessage("It is sunny today");
+**writeMessage.call(global, "It is sunny today");**
+
+As explained earlier, functions are objects, which means they define methods, including the `call` method. It is this method that is used to invoke a function behind the scenes. The first argument to the `call` method is the value for `this`, which is set to the global object. This is the reason that `this` can be used in any function and why it returns the global object by default.
+
+The new statement in listing 3.37 uses the `call` method directly and sets the `this` value to the global object, with the same result as the conventional function call before it, which can be seen in the following output produced by the code when executed:
+
+Hello, It is sunny today
+Hello, It is sunny today
+
+The name of the global object changes based on the execution environment. In code executed by Node.js, `global` is used, but `window` or `self` may be required in browsers. At the time of writing, there is a proposal to standardize the name `global`, but it has yet to be adopted universally.
+
+Understanding the effect of strict mode
+
+JavaScript supports strict mode, which disables or restricts features that have historically caused poor-quality software or that prevent the runtime from executing code efficiently. When strict mode is enabled, the default value for `this` is `undefined` to prevent accidental use of the global object, and values with global scope must be explicitly defined as properties on the global object. See [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) for details. The TypeScript compiler provides a feature for automatically enabling strict mode in the JavaScript code it generates, as described in chapter 5.
+
+### 3.6.2 Understanding this in methods
+
+When a function is invoked as an object’s method, `this` is set to the object, as shown in listing 3.38.
+
+Listing 3.38 Invoking a function as a method in the index.js file in the primer folder
+
+**let myObject = {**
+    **greeting: "Hi, there",**
+    
+    **writeMessage(message) {**
+        **console.log(`${this.greeting}, ${message}`);**        
+    **}**
+**}**
+
+greeting = "Hello";
+
+**myObject.writeMessage("It is sunny today");**
+
+When the function is invoked via the object, the statement that invokes the function is equivalent to using the `call` method with the object as the first argument, like this:
+
+...
+myObject.writeMessage.call(**myObject**, "It is sunny today");
+...
+
+Care is required because `this` is set differently if the function is accessed outside of its object, which can happen if the function is assigned to a variable, as shown in listing 3.39.
+
+Listing 3.39 Invoking a function in the index.js file in the primer folder
+
+let myObject = {
+    greeting: "Hi, there",
+    
+    writeMessage(message) {
+        console.log(`${this.greeting}, ${message}`);
+    }
+}
+
+greeting = "Hello";
+
+myObject.writeMessage("It is sunny today");
+
+**let myFunction = myObject.writeMessage;**
+**myFunction("It is sunny today");**
+
+Functions can be used like any other value, including assigning them to variables outside of the object in which they were defined, as shown in the listing. If the function is invoked through the variable, then `this` will be set to the global object. This often causes problems when functions are used as arguments to other methods or as callbacks to handle events, and the effect is that the same function will behave differently based on how it is invoked, as shown in the output produced by the code in listing 3.39:
+
+Hi, there, It is sunny today
+Hello, It is sunny today
+
+### 3.6.3 Changing the behavior of the this keyword
+
+One way to control the `this` value is to invoke functions using the `call` method, but this is awkward and must be done every time the function is invoked. A more reliable method is to use the function’s `bind` method, which is used to set the value for `this` regardless of how the function is invoked, as shown in listing 3.40.
+
+Listing 3.40 Setting the this value in the index.js file in the primer folder
+
+let myObject = {
+    greeting: "Hi, there",
+    
+    writeMessage(message) {
+        console.log(`${this.greeting}, ${message}`);        
+    }
+}
+
+**myObject.writeMessage = myObject.writeMessage.bind(myObject);**
+
+greeting = "Hello";
+
+myObjectwriteMessage("It is sunny today");
+
+let myFunction = myObject.writeMessage;
+myFunction("It is sunny today");
+
+The `bind` method returns a new function that will have a persistent value for `this` when it is invoked. The function returned by the `bind` method is used to replace the original method, ensuring consistency when the `writeMessage` method is invoked. Using `bind` is awkward because the reference to the object isn’t available until after it has been created, which leads to a two-step process of creating the object and then calling `bind` to replace each of the methods for which a consistent `this` value is required. The code in listing 3.40 produces the following output:
+
+Hi, there, It is sunny today
+Hi, there, It is sunny today
+
+The value of `this` is always set to `myObject`, even when the `writeMessage` function is invoked as a stand-alone function.
+
+### 3.6.4 Understanding this in arrow functions
+
+To add to the complexity of `this`, arrow functions don’t work in the same way as regular functions. Arrow functions don’t have their own `this` value and inherit the closest value of `this` they can find when they are executed. To demonstrate how this works, listing 3.41 adds an arrow function to the example.
+
+Listing 3.41 Using an arrow function in the index.js file in the primer folder
+
+let myObject = {
+    greeting: "Hi, there",
+ 
+    **getWriter() {**
+        **return (message) => console.log(`${this.greeting}, ${message}`);**
+    **}**
+}
+
+greeting = "Hello";
+
+**let writer = myObject.getWriter();**
+**writer("It is raining today");**
+ 
+**let standAlone = myObject.getWriter;**
+**let standAloneWriter = standAlone();**
+**standAloneWriter("It is sunny today");**
+
+In listing 3.41, the `getWriter` function is a regular function that returns an arrow function as its result. When the arrow function returned by `getWriter` is invoked, it works its way up its scope until it locates a value for `this`. As a consequence, the way that the `getWriter` function is invoked determines the value of `this` for the arrow function. Here are the first two statements that invoke the functions:
+
+...
+let writer = **myObject**.getWriter();
+writer("It is raining today");
+...
+
+These two statements can be combined as follows:
+
+...
+**myObject**.getWriter()("It is raining today");
+...
+
+The combined statement is a little harder to read, but it helps emphasize that the value of `this` is based on how a function is invoked. The `getWriter` method is invoked through `myObject` and means that the value of `this` will be set to `myObject`. When the arrow function is invoked, it finds a value of `this` from the `getWriter` function. The result is that when the `getWriter` method is invoked through `myObject`, the value of `this` in the arrow function will be `myObject`, and the `this.greeting` expression in the template string will be `Hi,` `there`.
+
+The statements in the second set treat `getWriter` as a stand-alone function, so `this` will be set to the global object. When the arrow function is invoked, the `this.greeting` expression will be `Hello`. The code in listing 3.41 produces the following output, confirming the `this` value in each case:
+
+Hi, there, It is raining today
+Hello, It is sunny today
+
+### 3.6.5 Returning to the original problem
+
+I started this section by redefining a function in the arrow syntax and showing that it behaved differently, producing `undefined` in its output. Here is the object and its function:
+
+...
+let hat = {
+    name: "Hat",    
+    _price: 100,
+    priceIncTax: 100 * 1.2,
+ 
+    set price(newPrice) {
+        this._price = newPrice;
+        this.priceIncTax = this._price * 1.2;
+    },
+ 
+    get price() {
+        return this._price;
+    },
+ 
+    **writeDetails: () =>** 
+        **console.log(`${this.name}: ${this.price}, ${this.priceIncTax}`)**
+};
+...
+
+The behavior changed because arrow functions don’t have their own `this` value, and the arrow function isn’t enclosed by a regular function that can provide one. To resolve the issue and be sure that the results will be consistent, I must return to a regular function and use the `bind` method to fix the `this` value, as shown in listing 3.42.
+
+Listing 3.42 Resolving the function problem in the index.js file in the primer folder
+
+let hat = {
+    name: "Hat",    
+    _price: 100,
+    priceIncTax: 100 * 1.2,
+ 
+    set price(newPrice) {
+        this._price = newPrice;
+        this.priceIncTax = this._price * 1.2;
+    },
+ 
+    get price() {
+        return this._price;
+    },
+ 
+    **writeDetails() {**
+         **console.log(`${this.name}: ${this.price}, ${this.priceIncTax}`);**
+    **}**
+};
+
+let boots = {
+    name: "Boots",
+    price: "100",
+ 
+    get priceIncTax() {
+        return Number(this.price) * 1.2;
+    }
+}
+
+**hat.writeDetails = hat.writeDetails.bind(hat);**
+hat.writeDetails();
+hat.price = 120;
+hat.writeDetails();
+
+console.log(`Boots: ${boots.price}, ${boots.priceIncTax}`);
+boots.price = "120";
+console.log(`Boots: ${boots.price}, ${boots.priceIncTax}`);
+
+With these changes, the value of `this` for the `writeDetails` method will be its enclosing object, regardless of how it is invoked, producing the following output:
+
+Hat: 100, 120
+Hat: 120, 144
+Boots: 100, 120
+Boots: 120, 144
+
+## Summary
+
+In this chapter, I introduced the basic features of the JavaScript type system. These are features that often confuse because they work differently from those in other programming languages. Understanding these features make working with TypeScript easier because they provide insight into the problems that TypeScript solves. JavaScript has a set of built-in data types that are used to represent all values.
+
+- JavaScript will attempt to convert data types when they are combined with an operator.
+    
+- JavaScript functions can be defined with a literal syntax that declares parameters and a function body or using the fat arrow/lambda function syntax.
+    
+- JavaScript functions can accept a variable number of arguments, which can be captured using a rest parameter.
+    
+- JavaScript functions do not formally declare results and can return any result type.
+    
+- JavaScript arrays are variable-length and can accept values of any type.
+    
+- JavaScript objects are a collection of properties and values and can be defined using a literal syntax.
+    
+- JavaScript objects can be altered to add, change, or remove properties.
+    
+- JavaScript objects can be defined with methods, which are functions assigned to a property.
+    
+- The `this` keyword refers to different objects depending on how functions are invoked.
+    
+
+In the next chapter, I describe more of the JavaScript type features that are useful for understanding TypeScript.

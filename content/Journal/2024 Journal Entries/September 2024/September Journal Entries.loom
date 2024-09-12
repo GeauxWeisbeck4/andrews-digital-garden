@@ -414,31 +414,31 @@
         "index": 9,
         "sourceId": null,
         "creationDateTime": "2024-09-09T14:40:44.915Z",
-        "lastEditedDateTime": "2024-09-09T14:40:44.915Z",
+        "lastEditedDateTime": "2024-09-12T04:59:49.219Z",
         "cells": [
           {
             "id": "b8b7688d-472d-42d9-9f59-de8d8a9d7668",
             "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
-            "path": "",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-10",
             "alias": null,
             "hasValidFrontmatter": null
           },
           {
             "id": "2dcc1a46-7fc3-437a-b438-c564dc5fcc2a",
             "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
-            "content": "",
+            "content": "September 10, 2024",
             "hasValidFrontmatter": null
           },
           {
             "id": "ff3d24eb-c9d3-43dd-b922-d6c2d6c96e21",
             "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
-            "content": "",
+            "content": "Tuesday",
             "hasValidFrontmatter": null
           },
           {
             "id": "c03a0213-1a2f-4dbb-83f4-63cc68305771",
             "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
-            "value": null,
+            "value": 1091024,
             "hasValidFrontmatter": null
           }
         ]
@@ -448,31 +448,31 @@
         "index": 10,
         "sourceId": null,
         "creationDateTime": "2024-09-09T14:40:45.057Z",
-        "lastEditedDateTime": "2024-09-09T14:40:45.057Z",
+        "lastEditedDateTime": "2024-09-12T05:00:13.359Z",
         "cells": [
           {
             "id": "dc6ea04d-d90e-4a7d-828d-30534e2c36a3",
             "columnId": "05f47aeb-4965-47e4-a200-8564ae60c25d",
-            "path": "",
+            "path": "Journal/2024 Journal Entries/September 2024/2024-09-11",
             "alias": null,
             "hasValidFrontmatter": null
           },
           {
             "id": "60fb7223-203f-4350-9445-bd0981be4db8",
             "columnId": "5d3c3178-fff1-488b-870a-77261bceb5e5",
-            "content": "",
+            "content": "September 11, 2024",
             "hasValidFrontmatter": null
           },
           {
             "id": "56202bf2-ff2d-4044-bd5c-dfa003ecd348",
             "columnId": "e47f73da-5504-4fce-b54b-9ddb4052369e",
-            "content": "",
+            "content": "Wednesday",
             "hasValidFrontmatter": null
           },
           {
             "id": "717b222d-6827-4456-90be-4f29bd0067ad",
             "columnId": "f899edf7-f424-4e46-b12e-446d4535bd03",
-            "value": null,
+            "value": 1091124,
             "hasValidFrontmatter": null
           }
         ]
