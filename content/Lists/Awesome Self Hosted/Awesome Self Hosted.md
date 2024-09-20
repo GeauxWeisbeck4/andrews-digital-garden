@@ -10,7 +10,7 @@ tags:
   - foss
   - open-source
   - "#programming"
-modified: 2024-08-22T11:58:02-04:00
+modified: 2024-09-19T07:47:17-04:00
 ---
 # Awesome Self Hosted
 - [GitHub - AzuraCast/AzuraCast: A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations.](https://github.com/AzuraCast/AzuraCast)
@@ -25,4 +25,10 @@ modified: 2024-08-22T11:58:02-04:00
 - [GitHub - sentriz/gonic: music streaming server / free-software subsonic server API implementation](https://github.com/sentriz/gonic)
 - [Forgejo – Beyond coding. We forge.](https://forgejo.org/?ref=noted.lol)
 - [GitHub - urania-dev/snapp: Yet Another Url Shortner. A simple excercise to learn Svelte.](https://github.com/urania-dev/snapp)
+- [Monitor your entire infrastructure in high-resolution and in real-time.](https://www.netdata.cloud/)
+- [Joplin](https://joplinapp.org/)
+- [🎨️ Design | RSSHub](https://docs.rsshub.app/routes/design)
+- [Nginx Proxy Manager](https://nginxproxymanager.com/)
+- [Caddy - The Ultimate Server with Automatic HTTPS](https://caddyserver.com/)
+- [Redirecting](https://gethomepage.dev/)
 - 
