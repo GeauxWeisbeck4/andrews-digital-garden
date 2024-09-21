@@ -20,7 +20,7 @@ If you want to jump right into things, you will find these links as a great plac
 ## Notes
 
 - ### [[Programming Books]]
-	- #### [[JavaScript]]
+	- #### [[JavaScript Roadmap]]
 	- #### [[Nodejs|Node.js]]
 	- #### [[Python]]
 - ### [[Computer Science]]

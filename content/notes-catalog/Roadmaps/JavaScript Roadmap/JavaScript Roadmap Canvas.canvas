@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"e577c0f17c91a911","type":"text","text":"# JavaScript","x":-120,"y":-260,"width":220,"height":60},
+		{"id":"84e52f4378adfdee","type":"text","text":"","x":148,"y":-150,"width":250,"height":60},
+		{"id":"247d3ad85a17aa6a","type":"text","text":"","x":133,"y":-152,"width":250,"height":60},
+		{"id":"bfd2cf5742604a69","x":-660,"y":-123,"width":480,"height":62,"type":"text","text":"# Introduction to JavaScript"},
+		{"id":"03109aa240973fe9","x":-1200,"y":-61,"width":360,"height":61,"type":"file","file":"notes-catalog/Roadmaps/JavaScript Roadmap/Introduction to JavaScript/What is JavaScript.md"}
+	],
+	"edges":[
+		{"id":"3f6ab4e5cb2c318d","fromNode":"bfd2cf5742604a69","fromSide":"left","toNode":"03109aa240973fe9","toSide":"right"}
+	]
+}

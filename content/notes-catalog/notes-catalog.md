@@ -19,7 +19,7 @@ Largest Column: standard
 
 ## Main Note Folders
 - ### [[programming]]
-	- [[JavaScript]]
+	- [[JavaScript Roadmap]]
 	- [[Python]]
 	- [[Go Lang]]
 	- [[CSS]]
