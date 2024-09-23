@@ -45,5 +45,6 @@
     "embed_model": {
       "None": {}
     }
-  }
+  },
+  "free_chat_uses": 1
 }

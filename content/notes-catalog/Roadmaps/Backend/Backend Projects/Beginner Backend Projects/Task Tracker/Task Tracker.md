@@ -1,6 +1,6 @@
 ---
 id: 01J69ZJXZGJE6C4XY7H8ZGA8XY
-modified: 2024-08-27T09:18:13-04:00
+modified: 2024-09-21T11:24:58-04:00
 title: Task Tracker
 description: Build a CLI app to track your tasks and manage your to-do list
 tags:
@@ -107,4 +107,4 @@ Here are a few steps to help you get started with the Task Tracker CLI project:
 
 By the end of this project, you will have developed a practical tool that can help you or others manage tasks efficiently. This project lays a solid foundation for more advanced programming projects and real-world applications.
 
-Happy coding!
+Happy coding!![[Task Tracker 2024-09-21 11.24.46.excalidraw]]

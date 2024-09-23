@@ -2,7 +2,7 @@
 id: 01J5TX84QMYDGWGM5S39SRRSX8
 title: Awesome Python
 description: Awesome Python tools, links, and everything in between
-modified: 2024-09-21T09:02:49-04:00
+modified: 2024-09-21T17:15:52-04:00
 tags:
   - python
   - awesome
@@ -22,6 +22,7 @@ tags:
 - 
 - [Reflex · Web apps in Pure Python](https://reflex.dev/)
 - [Crawlee for Python · Fast, reliable crawlers.](https://crawlee.dev/python)
+- [Rio - Web apps in Pure Python](https://rio.dev/)
 
 # AI, Machine Learning, LLMs, etc.
 - [Taipy — Build Python Data & AI web applications](https://taipy.io/)

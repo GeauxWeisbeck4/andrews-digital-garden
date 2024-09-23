@@ -7,7 +7,7 @@ tags:
   - awesome
   - lists
   - tools
-modified: 2024-09-21T08:57:38-04:00
+modified: 2024-09-21T16:04:15-04:00
 ---
 # Awesome Open Source
 
@@ -23,3 +23,6 @@ modified: 2024-09-21T08:57:38-04:00
 
 - # Debugging, Testing, Error Handling, etc.
 	- 	- [PageSpy](https://www.pagespy.org/)
+
+- # Hacking and Cybersecurity
+	- [Introduction · User guide of MISP intelligence sharing platform](https://www.circl.lu/doc/misp/)
