@@ -7,5 +7,9 @@ tags:
   - design
   - roadmaps
   - programming
-modified: 2024-09-21T16:25:48-04:00
+modified: 2024-09-24T10:52:57-04:00
 ---
+- # Table of Contents
+	- ## [[What are APIs]]
+	- ## [[HTTP in API Design]]
+	- 
