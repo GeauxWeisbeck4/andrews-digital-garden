@@ -1,6 +1,6 @@
 ---
 id: 01J6VKW0NEK3HABV991SDY4J9R
-modified: 2024-09-09T00:46:21-04:00
+modified: 2024-09-29T17:22:37-04:00
 title: Chapter Two - Your First TypeScript Application
 description: Creating your first application with TypeScript
 tags:
@@ -9,7 +9,7 @@ tags:
   - web-development
   - books
 ---
-# Chapter Two - Your First TypeScript Application
+t# Chapter Two - Your First TypeScript Application
 - ### Creating the Compiler Config File
 ```typescript
 {
