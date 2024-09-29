@@ -16,5 +16,9 @@ previewLink: http://books.google.com/books?id=TWy1EAAAQBAJ&pg=PR4&dq=the+complet
 isbn13: 9781718503298
 isbn10: 1718503296
 id: 01J8TEJBQXVBTWPHEGP1GQAPD0
-modified: 2024-09-27T15:16:00-04:00
+modified: 2024-09-29T11:11:22-04:00
 ---
+# Table of Contents
+- [[Chapter One - Nodejs]]
+- [[Chapter Two - Modern JavaScript]]
+- 
