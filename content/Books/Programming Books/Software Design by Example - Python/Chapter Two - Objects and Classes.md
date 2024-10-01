@@ -1,13 +1,15 @@
 ---
-id: 01J6CQY19Z145V6BN002CDD2G1
-title: Chapter 2 - Objects and Classes
-modified: 2024-08-28T11:26:42-04:00
-description: Learn about Objects and classes
+id: 01J92QKP8C3X8YCD0SF16ZHXFX
+title: Chapter Two - Objects and Classes
+modified: 2024-09-30T20:28:39-04:00
+description: Learn about using Objects and Classes in Python
 tags:
   - python
-  - books
-  - software-design
+  - oop
+  - classes
   - programming
+  - software
+  - software-design
 ---
 # Chapter 2: Objects and Classes
 

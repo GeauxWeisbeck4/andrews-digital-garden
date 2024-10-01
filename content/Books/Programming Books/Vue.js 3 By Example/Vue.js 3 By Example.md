@@ -16,7 +16,7 @@ previewLink: http://books.google.com/books?id=J8crEAAAQBAJ&printsec=frontcover&d
 isbn13: 9781838828066
 isbn10: 1838828060
 id: 01J5S08DW8J8X9HJDZECJCGVV1
-modified: 2024-08-20T19:11:48-04:00
+modified: 2024-09-30T20:18:35-04:00
 ---
 # Vue.js By Example
 - [[Chapter 1 - Creating your first application in Vue 3]]
