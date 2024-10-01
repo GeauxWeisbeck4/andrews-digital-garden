@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"982bfd7b0376c411","type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Vue Roadmap.md","x":-260,"y":-240,"width":400,"height":280,"color":"4"},
+		{"id":"5b4bbc77eb69123f","type":"text","text":"Bootstrapping a Project","x":360,"y":-130,"width":250,"height":60},
+		{"id":"7b0f2d369788248f","type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/create-vue.md","x":287,"y":-400,"width":397,"height":200},
+		{"id":"96659a148cb7c6cc","type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Components/Components.md","x":286,"y":300,"width":400,"height":160},
+		{"id":"aa3b9df5d2c6b28b","x":-401,"y":160,"width":400,"height":55,"type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Components/Component Registration.md"},
+		{"id":"ce5d9f441a9b8d40","x":-401,"y":245,"width":400,"height":55,"type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Components/Single File Components.md"},
+		{"id":"9f2d75863cbe6362","x":-281,"y":330,"width":160,"height":50,"type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Components/Events.md"},
+		{"id":"c6a281c277d987af","x":-93,"y":330,"width":184,"height":50,"type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Components/v-model.md"},
+		{"id":"ca0239d4355093f2","x":-471,"y":330,"width":141,"height":50,"type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Components/Props.md"},
+		{"id":"d5ad5f649ba37e19","x":-379,"y":435,"width":357,"height":50,"type":"file","file":"notes-catalog/Roadmaps/Vue Roadmap/Components/Attribute Inheritance.md"}
+	],
+	"edges":[
+		{"id":"ea574c4cc07c04ed","fromNode":"982bfd7b0376c411","fromSide":"right","toNode":"5b4bbc77eb69123f","toSide":"left"},
+		{"id":"4e9dcd314c321ece","fromNode":"5b4bbc77eb69123f","fromSide":"top","toNode":"7b0f2d369788248f","toSide":"bottom"},
+		{"id":"943afa4df31930e7","fromNode":"5b4bbc77eb69123f","fromSide":"bottom","toNode":"96659a148cb7c6cc","toSide":"top"},
+		{"id":"27a1b1acc98cf709","fromNode":"96659a148cb7c6cc","fromSide":"left","toNode":"aa3b9df5d2c6b28b","toSide":"right"},
+		{"id":"07fe287d9e05ee9b","fromNode":"96659a148cb7c6cc","fromSide":"left","toNode":"ce5d9f441a9b8d40","toSide":"right"},
+		{"id":"d84a933a8fad219c","fromNode":"96659a148cb7c6cc","fromSide":"left","toNode":"c6a281c277d987af","toSide":"right"},
+		{"id":"73ba2b6d21717a58","fromNode":"96659a148cb7c6cc","fromSide":"left","toNode":"d5ad5f649ba37e19","toSide":"right"}
+	]
+}

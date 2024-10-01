@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9344ab28926d51b7","x":-180,"y":-180,"width":325,"height":70,"type":"text","text":"# Vue.js & Quasar"},
+		{"id":"a9aa131e494b3872","x":-480,"y":-40,"width":150,"height":60,"color":"4","type":"text","text":"# Vue 3"},
+		{"id":"9590c29dc706bbeb","x":280,"y":-40,"width":250,"height":60,"color":"#2f6af4","type":"text","text":"# Quasar\n"}
+	],
+	"edges":[
+		{"id":"e33b76982ed64917","fromNode":"9344ab28926d51b7","fromSide":"left","toNode":"a9aa131e494b3872","toSide":"top"},
+		{"id":"9d3726925bbb8967","fromNode":"9344ab28926d51b7","fromSide":"right","toNode":"9590c29dc706bbeb","toSide":"top"}
+	]
+}
