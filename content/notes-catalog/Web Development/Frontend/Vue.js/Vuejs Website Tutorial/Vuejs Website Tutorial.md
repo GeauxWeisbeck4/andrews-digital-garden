@@ -2,7 +2,7 @@
 id: 01J94DB2YW056R1P9T78P6NQYB
 title: Vuejs Website Tutorial
 description: Vue.js Website Tutorial walkthrough
-modified: 2024-10-01T12:10:41-04:00
+modified: 2024-10-01T13:58:58-04:00
 tags:
   - vuejs
   - web-development
@@ -13,7 +13,19 @@ tags:
 - # Table of Contents
 	- ## 1. [[Vuejs Website Tutorial]]
 		- ### Getting Started
-	- ## 2. [[]]
+	- ## 2. [[Declarative Rendering]]
+	- ## 3. [[Event Listeners]]
+	- ## 4. [[Event Listeners]]
+	- ## 5. [[Form Bindings]]
+	- ## 6. [[Conditional Rendering]]
+	- ## 7. [[List Rendering]]
+	- ## 8. [[Computed Property]]
+	- ## 9. [[Lifecycle and Template refs]]
+	- ## 10. [[Watchers]]
+	- ## 11. [[notes-catalog/Web Development/Frontend/Vue.js/Vuejs Website Tutorial/Components|Components]]
+	- ## 12. [[notes-catalog/Web Development/Frontend/Vue.js/Vuejs Website Tutorial/Props|Props]]
+	- ## 13. [[Emits]]
+	- ## 14. [[Slots]]
 
 # Getting Started
 
@@ -43,3 +55,18 @@ Tutorial Setting Details
   <h1>Hello World!</h1>
 </template>
 ```
+
+# You Did It!
+
+You have finished the tutorial!
+
+At this point, you should have a good idea of what it's like to work with Vue. However, we covered a lot of things really fast and glossed over the details, so definitely keep learning! As a next step, you can:
+
+- Set up a real Vue project on your machine by following the [Quick Start](https://vuejs.org/guide/quick-start.html).
+    
+- Go through the [Main Guide](https://vuejs.org/guide/essentials/application.html), which covers all the topics we learned so far in greater details, and much more.
+    
+- Check out some more practical [Examples](https://vuejs.org/examples/).
+    
+
+We can't wait to see what you build next!
