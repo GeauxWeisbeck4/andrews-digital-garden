@@ -2,7 +2,7 @@
 id: 01J94DB2YW056R1P9T78P6NQYB
 title: Vuejs Website Tutorial
 description: Vue.js Website Tutorial walkthrough
-modified: 2024-10-01T13:58:58-04:00
+modified: 2024-10-02T11:20:41-04:00
 tags:
   - vuejs
   - web-development
