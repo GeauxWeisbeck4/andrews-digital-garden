@@ -22,7 +22,7 @@ modified: 2024-08-17T13:00:36-04:00
 - ## Medium
 	- ### [[GeauxWeisbeck4's Blog]] #blog #medium
 - ## Dev.to
-	- ### [[Andrew's Dev.to Blog]] #blog #dev-to
+	- ### [[Dev.to Blog]] #blog #dev-to
 - ## Substack
 	- ### [[MEAN Stack Developer]]
 
