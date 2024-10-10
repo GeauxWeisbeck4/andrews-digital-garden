@@ -11,11 +11,16 @@ tags:
   - open-source
   - indie-hacker
   - "#programming"
-modified: 2024-08-22T11:57:51-04:00
+modified: 2024-10-09T17:08:25-04:00
 ---
 # Awesome Indie Hacker Stuff
 - [About Ideas Now | Search 1000s of personal sites](https://aboutideasnow.com/)
 - [EchoFeed](https://echofeed.app/)
 - [Eleventy Post Graph](https://postgraph.rknight.me/)
 - [Domain Names | Buy Domains & Email At Hover.com](https://www.hover.com/domains)
+- [Marketing Examples](https://marketingexamples.com/)
+- [SaaS Boilerplates, starter kits, and design systems | Buildkits](https://www.buildkits.dev/)
+- [See what tools Indie Hackers use to build their products | IndieHackerStacks](https://indiehackerstacks.com/)
+- [The best SaaS Web Design Inspiration | Saaspo](https://saaspo.com/)
+- [Discover New and Innovative Startup Ideas | Startup Ideas AI](https://www.startupideasai.com/)
 - 
