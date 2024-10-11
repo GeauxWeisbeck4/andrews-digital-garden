@@ -10,7 +10,7 @@ tags:
   - awesome
   - lists
   - "#programming"
-modified: 2024-09-18T13:26:48-04:00
+modified: 2024-10-10T13:33:08-04:00
 ---
 # Awesome Starters
 - ### Awesome Astro Starters
@@ -61,4 +61,7 @@ modified: 2024-09-18T13:26:48-04:00
 	- [GitHub - importantimport/urara: 🌸 Sweet, Powerful, IndieWeb-Compatible SvelteKit Blog Starter. \[δ\](Delta)](https://github.com/importantimport/urara)
 	- [GitHub - kwchang0831/svelte-QWER: ✒︎ Simply Awesome Blog Starter built with SvelteKit and Love ❤](https://github.com/kwchang0831/svelte-QWER)
 	- [GitHub - jerriclynsjohn/svelte-storybook-tailwind: A starter template for Svelte, TailwindCSS and Storybook. You can easily start your project with this template, instead of wasting time figuring out configurations for each integration.](https://github.com/jerriclynsjohn/svelte-storybook-tailwind)
+
+- # Awesome Tailwind Starters
+	- [Fetching Title#efr1](https://minimal-nextjs-portfolio-website.vercel.app/)
 	- 

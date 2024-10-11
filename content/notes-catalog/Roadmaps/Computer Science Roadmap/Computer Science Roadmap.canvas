@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"7420d274c4f0f8ab","type":"file","file":"notes-catalog/Roadmaps/Computer Science Roadmap/Computer Science Roadmap.md","x":-200,"y":-260,"width":400,"height":180},
+		{"id":"ebd8093616ab8c3b","type":"file","file":"notes-catalog/Roadmaps/Computer Science Roadmap/Python - CS Roadmap.md","x":280,"y":37,"width":400,"height":107},
+		{"id":"8492e014cadeb707","x":-200,"y":61,"width":400,"height":60,"type":"file","file":"notes-catalog/Roadmaps/Computer Science Roadmap/Pick a Language.md"}
+	],
+	"edges":[
+		{"id":"2a139be6f01da9b3","fromNode":"7420d274c4f0f8ab","fromSide":"bottom","toNode":"8492e014cadeb707","toSide":"top"},
+		{"id":"91d6b589f52ca6d8","fromNode":"8492e014cadeb707","fromSide":"right","toNode":"ebd8093616ab8c3b","toSide":"left"}
+	]
+}
