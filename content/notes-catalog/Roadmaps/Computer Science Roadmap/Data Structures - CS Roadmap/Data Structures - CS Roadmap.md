@@ -6,9 +6,10 @@ tags:
   - data-structures
   - computer-science
   - programming
-modified: 2024-10-10T15:11:32-04:00
+modified: 2024-10-13T18:51:01-04:00
 ---
 - # Table of Contents
+	- ## [[Arrays]]
 	- 
 
 As the name indicates itself, a **Data Structure** is a way of organizing the data in the **memory** so that it can be used efficiently. Some common data structures are array, linked list, stack, hashtable, queue, tree, heap, and graph.
