@@ -5,7 +5,7 @@ tags:
   - index
   - notes-catalog
   - navigation-page
-modified: 2024-08-17T12:31:31-04:00
+modified: 2024-10-16T10:58:57-04:00
 id: 01J5GJNJM6G363Y74SGV0YJ47B
 ---
 # Notes Catalog
@@ -18,7 +18,7 @@ Largest Column: standard
 ```
 
 ## Main Note Folders
-- ### [[programming]]
+- ### [[Programming]]
 	- [[JavaScript Roadmap]]
 	- [[Python]]
 	- [[Go Lang]]

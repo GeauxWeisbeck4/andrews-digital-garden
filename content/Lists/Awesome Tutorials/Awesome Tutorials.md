@@ -2,7 +2,7 @@
 id: 01J5TQYMH20CGV5QCQF18WHG1X
 title: Awesome Tutorials
 description: A list of some of the best and my most favorite tutorials
-modified: 2024-09-09T12:06:39-04:00
+modified: 2024-10-16T11:11:55-04:00
 tags:
   - tutorial
   - programming
@@ -13,7 +13,8 @@ tags:
   - lists
 ---
 # Awesome Tutorials
-- A collection of the best tutorials, broken down into main categories and sub-categories.
+- A collection of the best tutorials, broken down into main categories and sub-categories
+
 
 ## [[Programming]] Tutorials #programming #tutorial 
 
@@ -39,4 +40,7 @@ tags:
 
 ## YouTube Tutorials
 - [Let's Build 10 Python Projects \[FREE COURSE\] - YouTube](https://www.youtube.com/watch?v=SbpQJL49A_Y&ref=dailydev)
-- 
+
+
+# Resources and Tools
+- [TutorialKit | Create interactive coding tutorials](https://tutorialkit.dev/)

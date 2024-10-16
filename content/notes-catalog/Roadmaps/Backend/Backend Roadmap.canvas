@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"130a27aad8926cfb","type":"file","file":"notes-catalog/programming/JavaScript/JavaScript.md","x":-1360,"y":-790,"width":300,"height":230},
-		{"id":"767271e83c3a4ff2","type":"file","file":"notes-catalog/programming/Python/Python.md","x":-1260,"y":-320,"width":300,"height":160},
+		{"id":"130a27aad8926cfb","type":"file","file":"notes-catalog/Programming/JavaScript/JavaScript.md","x":-1360,"y":-790,"width":300,"height":230},
+		{"id":"767271e83c3a4ff2","type":"file","file":"notes-catalog/Programming/Python/Python.md","x":-1260,"y":-320,"width":300,"height":160},
 		{"id":"799af890005a8036","type":"file","file":"notes-catalog/Roadmaps/Backend/Backend.md","x":-240,"y":-920,"width":400,"height":400},
 		{"id":"890c880fc2796bbb","type":"text","text":"# Version Control System","x":-310,"y":240,"width":510,"height":64},
 		{"id":"445aa7b02fc2ab30","type":"text","text":"# Git","x":-125,"y":80,"width":140,"height":50},

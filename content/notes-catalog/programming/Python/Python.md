@@ -22,7 +22,7 @@ Largest Column: standard
 ```
 
 ## Notes Navigation
-- ### [[Object Oriented Programming in Python]]
+- ### [[notes-catalog/Programming/Python/Object Oriented Programming in Python/Object Oriented Programming in Python|Object Oriented Programming in Python]]
 - ### [[FastAPI]]
 - ### [[Flask]]
 - ### [[Django]]

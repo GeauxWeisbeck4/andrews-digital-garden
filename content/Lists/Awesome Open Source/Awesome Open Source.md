@@ -7,7 +7,7 @@ tags:
   - awesome
   - lists
   - tools
-modified: 2024-09-21T16:04:15-04:00
+modified: 2024-10-16T11:11:25-04:00
 ---
 # Awesome Open Source
 
@@ -26,3 +26,7 @@ modified: 2024-09-21T16:04:15-04:00
 
 - # Hacking and Cybersecurity
 	- [Introduction · User guide of MISP intelligence sharing platform](https://www.circl.lu/doc/misp/)
+
+- # Content
+	- [TutorialKit | Create interactive coding tutorials](https://tutorialkit.dev/)
+	- 
