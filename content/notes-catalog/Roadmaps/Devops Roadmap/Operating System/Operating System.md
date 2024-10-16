@@ -1,7 +1,16 @@
 ---
 id: 01JABJFN169NRNJBMMA2XQEFWW
 title: Operating System
-modified: 2024-10-16T17:07:19-04:00
+modified: 2024-10-16T17:23:42-04:00
+tags:
+  - os
+  - dev-ops
+  - programming
+  - roadmaps
+  - windows
+  - linux
+  - unix
+  - bsd
 ---
 # Operating system
 

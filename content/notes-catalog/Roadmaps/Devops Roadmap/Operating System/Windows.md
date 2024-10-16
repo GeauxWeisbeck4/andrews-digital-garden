@@ -1,7 +1,13 @@
 ---
 id: 01JABJHJJKQ8NP1PA7BZ3AQADR
 title: Windows
-modified: 2024-10-16T17:08:15-04:00
+modified: 2024-10-16T17:23:23-04:00
+tags:
+  - windows
+  - dev-ops
+  - programming
+  - os
+  - roadmaps
 ---
 # Windows
 

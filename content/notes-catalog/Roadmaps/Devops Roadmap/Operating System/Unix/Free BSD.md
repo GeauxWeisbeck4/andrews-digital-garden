@@ -1,7 +1,14 @@
 ---
 id: 01JABJKSGMJ8ZZ3JJQNW207CN6
 title: FreeBSD
-modified: 2024-10-16T17:11:33-04:00
+modified: 2024-10-16T17:22:11-04:00
+tags:
+  - bsd
+  - os
+  - foss
+  - dev-ops
+  - programming
+  - roadmaps
 ---
 # FreeBSD
 

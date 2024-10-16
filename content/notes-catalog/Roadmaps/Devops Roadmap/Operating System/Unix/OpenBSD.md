@@ -1,7 +1,14 @@
 ---
 id: 01JABJKSGMJ8ZZ3JJQNW207CN6
 title: OpenBSD
-modified: 2024-10-16T17:11:33-04:00
+modified: 2024-10-16T17:22:51-04:00
+tags:
+  - bsd
+  - os
+  - roadmaps
+  - programming
+  - unix
+  - dev-ops
 ---
 # OpenBSD
 OpenBSD is a free, open-source Unix-like operating system known for its strong focus on security, code correctness, and proactive approach to eliminating vulnerabilities. It’s renowned for its stringent code review process, integrated cryptography, and default security features like stack protection and memory safeguards. OpenBSD pioneered many security innovations, including OpenSSH, and maintains a “secure by default” philosophy. The system is prized for its comprehensive documentation, clean and consistent codebase, and adherence to standards. While primarily used in server environments, especially for firewalls and network appliances, OpenBSD also supports desktop use. Its emphasis on security and stability makes it popular in high-security environments and among developers focused on system-level programming and network security.
