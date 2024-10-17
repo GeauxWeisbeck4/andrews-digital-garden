@@ -6,7 +6,7 @@ tags:
   - javascript
   - roadmaps
   - programming
-modified: 2024-10-16T21:55:44-04:00
+modified: 2024-10-16T21:57:23-04:00
 ---
 [typeof Operator
 You can use the typeOf operator to find the data type of a JavaScript variable. It returns a string indicating the type of provided operand’s value.
