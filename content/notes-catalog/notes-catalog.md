@@ -25,7 +25,7 @@ Largest Column: standard
 	- [[CSS]]
 	- [[HTML]]
 - ### [[Computer Science]]
-	- [[Data Structures and Algorithms]]
+	- [[Data Structures and Algorithms Roadmap]]
 	- [[Roadmap]]
 - ### [[Roadmaps]]
 - ### [[Marketing]]
