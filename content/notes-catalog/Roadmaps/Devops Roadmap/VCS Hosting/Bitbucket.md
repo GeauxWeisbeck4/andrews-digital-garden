@@ -1,6 +1,6 @@
 ---
 id: 01JABQFZAC7KRMZ7HA38SM59KW
-title: GitLab
+title: Bitbucket
 tags:
   - version-control-systems
   - hosting
@@ -8,7 +8,7 @@ tags:
   - programming
   - roadmaps
   - bitbucket
-modified: 2024-10-16T18:35:54-04:00
+modified: 2024-10-17T20:07:00-04:00
 ---
 # Bitbucket
 

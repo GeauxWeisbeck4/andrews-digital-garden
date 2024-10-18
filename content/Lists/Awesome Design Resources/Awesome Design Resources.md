@@ -12,7 +12,7 @@ tags:
   - ui-design
   - lists
   - "#programming"
-modified: 2024-09-21T08:58:16-04:00
+modified: 2024-10-18T11:05:30-04:00
 ---
 # Awesome Design Resources
 
@@ -29,4 +29,7 @@ modified: 2024-09-21T08:58:16-04:00
 ## Typography
 - [Fonts In Use – Type at work in the real world.](https://fontsinuse.com/)
 - [GitHub - sturobson/Awesome-Design-Tokens: A list of resources on all things to do with Design Tokens](https://github.com/sturobson/Awesome-Design-Tokens)
-- 
+
+- ## CSS Libraries/Frameworks
+	- [Fylgja](https://fylgja.dev/)
+	- 
