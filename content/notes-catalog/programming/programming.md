@@ -2,7 +2,7 @@
 id: 01J5GJVZXF91ME0FNW8B37BQWY
 title: Programming
 description: All programming notes, like frameworks, languages, etc.
-modified: 2024-08-17T12:34:03-04:00
+modified: 2024-10-24T18:52:19-04:00
 tags:
   - "#programming"
   - "#web-development"
@@ -19,7 +19,7 @@ Number of Columns: 2
 Largest Column: standard
 ```
 ## Languages
-- #### [[JavaScript]]
+- #### [[notes-catalog/Programming/JavaScript/JavaScript|JavaScript]]
 - #### [[Python]]
 - #### [[Go Lang]]
 - #### [[Rust]]

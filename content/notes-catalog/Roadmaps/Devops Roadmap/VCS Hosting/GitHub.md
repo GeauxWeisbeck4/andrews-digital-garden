@@ -8,7 +8,7 @@ tags:
   - dev-ops
   - programming
   - roadmaps
-modified: 2024-10-16T18:34:46-04:00
+modified: 2024-10-24T19:21:57-04:00
 ---
 # GitHub
 
@@ -23,3 +23,4 @@ Free Resources
 - [articleHow to Use Git in a Professional Dev Team](https://ooloo.io/project/github-flow)
 - [videoWhat is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 - [feedExplore top posts about GitHub](https://app.daily.dev/tags/github?ref=roadmapsh)
+
