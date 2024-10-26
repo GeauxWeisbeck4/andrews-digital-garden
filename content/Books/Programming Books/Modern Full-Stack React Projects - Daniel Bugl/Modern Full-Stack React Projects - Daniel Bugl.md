@@ -19,4 +19,4 @@ id: 01JA9CQY3EQ4HAXRA8BVWZ4JCQ
 modified: 2024-10-15T20:49:35-04:00
 ---
 # Table of Contents
-- ## [[Cha]]
+- ## [[Chapter 1 - The Jamstack and Hugo]]
