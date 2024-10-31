@@ -15,6 +15,6 @@ tags:
 - ## [[Preact]]
 - ## [[Solid.js]]
 - ## [[Svelte]]
-- ## [[Vue.js]]
+- ## [[notes-catalog/Web Development/Frontend/Vue.js/Vue.js|Vue.js]]
 - ## [[Angular]]
 - 

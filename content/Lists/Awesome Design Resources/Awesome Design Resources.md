@@ -12,7 +12,7 @@ tags:
   - ui-design
   - lists
   - "#programming"
-modified: 2024-10-26T16:35:43-04:00
+modified: 2024-10-30T18:12:14-04:00
 ---
 # Awesome Design Resources
 
@@ -33,4 +33,4 @@ modified: 2024-10-26T16:35:43-04:00
 - ## CSS Libraries/Frameworks
 	- [Fylgja](https://fylgja.dev/)
 	- [Tailwind Toots](https://www.tailwind-toots.fun/?ref=dailydev)
-	- 
+	- [Home | Park UI](https://park-ui.com/)
