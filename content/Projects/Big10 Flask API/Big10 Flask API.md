@@ -1,6 +1,6 @@
 ---
 id: 01JBG4ZY71G20S03BJ6M6XMW99
-modified: 2024-10-30T22:24:49-04:00
+modified: 2024-10-30T22:29:19-04:00
 title: Big10 Flask API
 description: An API built with Flask that shares stats, highlights, and more
 tags:
@@ -35,7 +35,9 @@ tags:
 		"date": "11-02-2024 12:00:00EST",
 		"tvChannel": "FOXSN",
 		"opponentWins": 3,
-		"opponentLosses": 5
+		"opponentLosses": 5,
+		"spread": +7.5
 	}
 }
 ```
+- 

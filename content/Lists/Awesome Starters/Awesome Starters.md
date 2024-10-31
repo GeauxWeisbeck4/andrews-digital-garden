@@ -10,7 +10,7 @@ tags:
   - awesome
   - lists
   - "#programming"
-modified: 2024-10-17T13:08:45-04:00
+modified: 2024-10-31T10:07:30-04:00
 ---
 # Awesome Starters
 - ### Awesome Astro Starters
@@ -64,4 +64,7 @@ modified: 2024-10-17T13:08:45-04:00
 
 - # Awesome Tailwind Starters
 	- [Fetching Title#efr1](https://minimal-nextjs-portfolio-website.vercel.app/)
-	- [windmill-dashboard-nextjs-typescript.vercel.app/example](https://windmill-dashboard-nextjs-typescript.vercel.app/example)
+	- [windmill-dashboard-nextjs-typescript.vercel.app/example](https://windmill-dashboard-nextjs-typescript.vercel.app/example
+
+- # Awesome Next.js Starters
+	- [Dsign New Free NextJs Landing Page Template with App Directory Routing](https://nextjs-templates.com/products/dsign-new-nextjs-based-landing-page-template?ref=dailydev)
