@@ -2,7 +2,7 @@
 id: 01J614DAFECZ6QQPBFWBNE0R4P
 title: Awesome Developer Websites
 description: List of awesome developer websites
-modified: 2024-10-31T11:50:31-04:00
+modified: 2024-10-31T21:35:40-04:00
 tags:
   - awesome
   - lists
@@ -20,7 +20,9 @@ tags:
 
 # Awesome Designer Websites
 - [Adham Dannaway | Product Designer & Front End Developer](https://www.adhamdannaway.com/)
-- 
+
+# Awesome Video
+- [Fetching Title#3xbs](https://www.arcade.software/)
 
 ## Code Quality/Testing
 - [Home - TIOBE](https://www.tiobe.com/)

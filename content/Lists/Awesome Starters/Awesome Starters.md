@@ -10,7 +10,7 @@ tags:
   - awesome
   - lists
   - "#programming"
-modified: 2024-10-31T10:07:30-04:00
+modified: 2024-10-31T21:17:26-04:00
 ---
 # Awesome Starters
 - ### Awesome Astro Starters
@@ -68,3 +68,7 @@ modified: 2024-10-31T10:07:30-04:00
 
 - # Awesome Next.js Starters
 	- [Dsign New Free NextJs Landing Page Template with App Directory Routing](https://nextjs-templates.com/products/dsign-new-nextjs-based-landing-page-template?ref=dailydev)
+
+- # Awesome Starter Collection Projects
+	- [Hello from Frontend Boilerplates | Frontend Boilerplates](https://boilerplates.js.org/)
+	- 

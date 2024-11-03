@@ -7,18 +7,18 @@ tags:
   - roadmaps
   - arrays
   - linked-lists
-modified: 2024-10-29T21:28:28-04:00
+modified: 2024-10-31T18:25:32-04:00
 ---
 # Arrays and Linked lists
 
 Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and this allows faster access to an element at a specific index. Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional tags giving a reference to the next element. This difference in the data storage scheme decides which data structure would be more suitable for a given situation.
 
-Visit the following resources to learn more:
+- # Arrays in Python
+	- 
 
-Free Resources
 
 ---
-
+# Resources:
 - [ArticleArrays in Python](https://www.edureka.co/blog/arrays-in-python/)
 - [ArticleLinked List Python](https://realpython.com/linked-lists-python/)
 - [VideoArray Data Structure | Illustrated Data Structures](https://www.youtube.com/watch?v=QJNwK2uJyGs)
