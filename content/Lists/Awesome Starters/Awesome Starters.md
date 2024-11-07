@@ -10,7 +10,7 @@ tags:
   - awesome
   - lists
   - "#programming"
-modified: 2024-10-31T21:17:26-04:00
+modified: 2024-11-07T00:17:55-05:00
 ---
 # Awesome Starters
 - ### Awesome Astro Starters
@@ -57,6 +57,7 @@ modified: 2024-10-31T21:17:26-04:00
 	- [GitHub - Dillonpw/small-bis](https://github.com/Dillonpw/small-bis)
 	- [GitHub - nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog: Your own notion website with astro](https://github.com/nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog)
 	- [GitHub - petipois/fitness-astro-template: Astro 4 template aimed at gym and fitness websites](https://github.com/petipois/fitness-astro-template)
+	- [Fetching Title#aa6o](https://github.com/m6v3l9/astro-theme-stone)
 - # Awesome Svelte Starters
 	- [GitHub - importantimport/urara: 🌸 Sweet, Powerful, IndieWeb-Compatible SvelteKit Blog Starter. \[δ\](Delta)](https://github.com/importantimport/urara)
 	- [GitHub - kwchang0831/svelte-QWER: ✒︎ Simply Awesome Blog Starter built with SvelteKit and Love ❤](https://github.com/kwchang0831/svelte-QWER)
