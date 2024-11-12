@@ -1,7 +1,7 @@
 ---
 id: 01J9VXBW0APME252V20ST6SZZ9
 title: Pick a Language
-modified: 2024-10-10T15:09:32-04:00
+modified: 2024-11-11T18:25:13-05:00
 ---
 You need to pick a programming language to learn the Computer Science concepts. My personal recommendation would be to pick C++ or C and the reason for that is:
 
@@ -24,3 +24,20 @@ Free Resources
 - [videoC++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - [videoC Programming Tutorial for Beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0)
 - [videoLearn C Programming with Dr. Chuck](https://www.youtube.com/watch?v=j-_s8f5K30I)
+
+# C
+
+C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential. By design, C’s features cleanly reflect the capabilities of the targeted CPUs.
+
+Visit the following resources to learn more:
+
+Free Resources
+
+---
+
+- [ArticleLearn C - W3Schools](https://www.w3schools.com/c/)
+- [ArticleLearn C - Tutorials Point](https://www.tutorialspoint.com/cprogramming/index.htm)
+- [VideoC Programming Tutorial for Beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0)
+- [VideoLearn C Programming with Dr. Chuck](https://www.youtube.com/watch?v=j-_s8f5K30I)
+- [VideoC Programming Full Course (Bro Code)](https://youtu.be/87SH2Cn0s9A)
+- [FeedExplore top posts about C Programming](https://app.daily.dev/tags/c?ref=roadmapsh)
