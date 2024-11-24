@@ -10,7 +10,7 @@ tags:
   - awesome
   - lists
   - "#programming"
-modified: 2024-11-07T00:17:55-05:00
+modified: 2024-11-11T23:24:09-05:00
 ---
 # Awesome Starters
 - ### Awesome Astro Starters
@@ -72,4 +72,5 @@ modified: 2024-11-07T00:17:55-05:00
 
 - # Awesome Starter Collection Projects
 	- [Hello from Frontend Boilerplates | Frontend Boilerplates](https://boilerplates.js.org/)
+	- [Free HTML Website Templates on HTMLrev](https://htmlrev.com/)
 	- 
