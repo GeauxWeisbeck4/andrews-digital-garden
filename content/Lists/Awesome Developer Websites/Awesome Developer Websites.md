@@ -2,7 +2,7 @@
 id: 01J614DAFECZ6QQPBFWBNE0R4P
 title: Awesome Developer Websites
 description: List of awesome developer websites
-modified: 2024-11-24T18:30:44-05:00
+modified: 2024-12-14T19:27:00-05:00
 tags:
   - awesome
   - lists
@@ -18,7 +18,7 @@ tags:
 - [Safdar Ali - Portfolio](https://safdarali.vercel.app/)
 	- I love this one
 - [Harwin Dan | Home](https://itscrazydev.netlify.app/)
-- 
+- [Home](https://adamj.eu/)
 
 # Awesome Designer Websites
 - [Adham Dannaway | Product Designer & Front End Developer](https://www.adhamdannaway.com/)
