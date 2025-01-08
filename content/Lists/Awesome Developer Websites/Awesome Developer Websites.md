@@ -2,7 +2,7 @@
 id: 01J614DAFECZ6QQPBFWBNE0R4P
 title: Awesome Developer Websites
 description: List of awesome developer websites
-modified: 2024-12-14T19:27:00-05:00
+modified: 2024-12-14T19:27:43-05:00
 tags:
   - awesome
   - lists
