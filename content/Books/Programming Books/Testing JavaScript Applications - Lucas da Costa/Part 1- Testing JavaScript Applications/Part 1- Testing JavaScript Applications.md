@@ -1,6 +1,6 @@
 ---
 id: 01JCK1GMQGG1VMS4BBQYET5S69
-modified: 2024-11-13T10:16:05-05:00
+modified: 2025-01-09T13:25:21-05:00
 title: Part 1- Testing JavaScript Applications
 ---
 # Part 1. Testing JavaScript applications
@@ -14,3 +14,5 @@ The first part of _Testing JavaScript Applications_ explains how automated tes
 In chapter 1, I’ll introduce automated tests and describe how they can help you and your team.
 
 Chapter 2 presents multiple types of automated tests. It explains when to write each type of test, the pros and cons of each type, and the fundamental patterns you’ll apply throughout the whole book.
+
+![[Pasted image 20250109132510.png]]
